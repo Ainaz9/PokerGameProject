@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\bin\Debug\net8.0-windows\PokerGameProject.exe
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\bin\Debug\net8.0-windows\PokerGameProject.deps.json
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\bin\Debug\net8.0-windows\PokerGameProject.runtimeconfig.json
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\bin\Debug\net8.0-windows\PokerGameProject.dll
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\bin\Debug\net8.0-windows\PokerGameProject.pdb
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\PokerGameProject.RegisterForm.resources
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\PokerGameProject.csproj.GenerateResource.cache
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\PokerGameProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\PokerGameProject.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\PokerGameProject.AssemblyInfo.cs
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\PokerGameProject.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\PokerGameProject.dll
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\refint\PokerGameProject.dll
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\PokerGameProject.pdb
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\PokerGameProject.genruntimeconfig.cache
+C:\Users\user\source\repos\PokerGameProject\PokerGameProject\obj\Debug\net8.0-windows\ref\PokerGameProject.dll
