@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             panelRegister = new Panel();
+            linkLabelToLogin = new LinkLabel();
             buttonRegister = new Button();
             textBoxRepeatPasswordReg = new TextBox();
             textBoxPasswordReg = new TextBox();
             textBoxEmailReg = new TextBox();
             textBoxLoginReg = new TextBox();
             labelRegister = new Label();
-            linkLabelToLogin = new LinkLabel();
             panelRegister.SuspendLayout();
             SuspendLayout();
             // 
@@ -54,6 +54,16 @@
             panelRegister.Size = new Size(449, 480);
             panelRegister.TabIndex = 0;
             // 
+            // linkLabelToLogin
+            // 
+            linkLabelToLogin.Location = new Point(162, 421);
+            linkLabelToLogin.Name = "linkLabelToLogin";
+            linkLabelToLogin.Size = new Size(135, 25);
+            linkLabelToLogin.TabIndex = 7;
+            linkLabelToLogin.TabStop = true;
+            linkLabelToLogin.Text = "Уже есть аккаунт?";
+            linkLabelToLogin.LinkClicked += linkLabelToLogin_LinkClicked;
+            // 
             // buttonRegister
             // 
             buttonRegister.Font = new Font("Segoe UI", 13F);
@@ -63,6 +73,7 @@
             buttonRegister.TabIndex = 5;
             buttonRegister.Text = "Зарегистрироваться";
             buttonRegister.UseVisualStyleBackColor = true;
+            buttonRegister.Click += buttonRegister_Click;
             // 
             // textBoxRepeatPasswordReg
             // 
@@ -104,15 +115,6 @@
             labelRegister.Size = new Size(186, 47);
             labelRegister.TabIndex = 0;
             labelRegister.Text = "РЕГИСТРАЦИЯ";
-            // 
-            // linkLabelToLogin
-            // 
-            linkLabelToLogin.Location = new Point(162, 421);
-            linkLabelToLogin.Name = "linkLabelToLogin";
-            linkLabelToLogin.Size = new Size(135, 25);
-            linkLabelToLogin.TabIndex = 7;
-            linkLabelToLogin.TabStop = true;
-            linkLabelToLogin.Text = "Уже есть аккаунт?";
             // 
             // RegisterForm
             // 

@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             panelEntrance = new Panel();
+            linkLabelToRegistration = new LinkLabel();
             buttonLogin = new Button();
             textBoxPasswordLog = new TextBox();
             textBoxLoginLog = new TextBox();
             labelLogin = new Label();
-            linkLabelToRegistration = new LinkLabel();
             panelEntrance.SuspendLayout();
             SuspendLayout();
             // 
@@ -50,6 +50,16 @@
             panelEntrance.Size = new Size(449, 480);
             panelEntrance.TabIndex = 1;
             // 
+            // linkLabelToRegistration
+            // 
+            linkLabelToRegistration.Location = new Point(155, 405);
+            linkLabelToRegistration.Name = "linkLabelToRegistration";
+            linkLabelToRegistration.Size = new Size(156, 25);
+            linkLabelToRegistration.TabIndex = 6;
+            linkLabelToRegistration.TabStop = true;
+            linkLabelToRegistration.Text = "У вас нет аккаунта?";
+            linkLabelToRegistration.LinkClicked += linkLabelToRegistration_LinkClicked;
+            // 
             // buttonLogin
             // 
             buttonLogin.Font = new Font("Segoe UI", 13F);
@@ -59,6 +69,7 @@
             buttonLogin.TabIndex = 5;
             buttonLogin.Text = "Войти";
             buttonLogin.UseVisualStyleBackColor = true;
+            buttonLogin.Click += buttonLogin_Click;
             // 
             // textBoxPasswordLog
             // 
@@ -84,15 +95,6 @@
             labelLogin.Size = new Size(93, 47);
             labelLogin.TabIndex = 0;
             labelLogin.Text = "ВХОД";
-            // 
-            // linkLabelToRegistration
-            // 
-            linkLabelToRegistration.Location = new Point(155, 405);
-            linkLabelToRegistration.Name = "linkLabelToRegistration";
-            linkLabelToRegistration.Size = new Size(156, 25);
-            linkLabelToRegistration.TabIndex = 6;
-            linkLabelToRegistration.TabStop = true;
-            linkLabelToRegistration.Text = "У вас нет аккаунта?";
             // 
             // LoginForm
             // 
