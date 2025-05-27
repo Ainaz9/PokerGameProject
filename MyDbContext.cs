@@ -11,7 +11,7 @@ namespace PokerGameRSF
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
         public DbSet<User> User { get; set; }
         public DbSet<Card> Card { get; set; }
-        public DbSet<Bet> Bets { get; set; }
+        public DbSet<Bet> Bet { get; set; }
         public DbSet<PlayerCard> PlayerCard { get; set; }
         public DbSet<PlayerAction> PlayerAction { get; set; }
 

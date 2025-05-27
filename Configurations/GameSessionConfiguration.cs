@@ -4,8 +4,15 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace PokerGameRSF.Configurations
 {
+    /// <summary>
+    /// Предоставляет конфигурацию для сущности GameSession
+    /// </summary>
     public class GameSessionConfiguration : IEntityTypeConfiguration<GameSession>
     {
+        /// <summary>
+        /// Метод Configure применяет конфигурацию для сущности GameSession
+        /// </summary>
+        /// <param name="builder"></param>
         public void Configure(EntityTypeBuilder<GameSession> builder)
         {
             builder.HasKey(gs  => gs.Id);

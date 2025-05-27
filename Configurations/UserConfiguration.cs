@@ -5,14 +5,14 @@ using PokerGame.Models;
 namespace PokerGameRSF.Configurations
 {
     /// <summary>
-    /// Кофигурация Пользователя
+    /// Предоставляет конфигурацию для сущности User
     /// </summary>
     public class UserConfiguration : IEntityTypeConfiguration<User>
     {
         /// <summary>
-        /// Метод добавления конфигурации пользователя
+        /// Метод Configure применяет конфигурацию для сущности User
         /// </summary>
-        /// <param name="builder"></param>
+        /// <param name="builder">Объект, используемый для настройки модели</param>
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.HasKey(u  => u.Id);
