@@ -28,7 +28,8 @@ namespace PokerGameRSF.Server
         public void Start()
         {
             _listener.Start();
-            _ = AcceptClientsAsync;
+            //_ = AcceptClientsAsync;
+            // TODO: что-то сломано
 
         }
 
@@ -42,7 +43,7 @@ namespace PokerGameRSF.Server
         {
             while (!token.IsCancellationRequested)
             {
-                TcpClient client 
+                TcpClient client;
             }
         }
     }

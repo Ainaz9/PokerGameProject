@@ -1,12 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PokerGame;
+using PokerGameProject;
 using PokerGameRSF;
+using PokerGameRSF.Models;
+using System;
 
 namespace PokerGame
 {
     internal static class Program
     {
+        public static IServiceProvider ServiceProvider { get; private set; }
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
@@ -24,11 +29,20 @@ namespace PokerGame
             var services = new ServiceCollection();
             services.AddDbContext<MyDbContext>(options =>
                 options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
-
-            var serviceProvider = services.BuildServiceProvider();
-
+            services.AddSingleton<RegisterForm>();
+            services.AddSingleton<LoginForm>();
+            services.AddSingleton<MainMenuForm>();
+            services.AddSingleton<App>();
+            services.AddSingleton<AuthContainer>();
+            services.AddSingleton<Logger>();
+            ServiceProvider = services.BuildServiceProvider();
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            var app = ServiceProvider.GetRequiredService<App>();
+            Application.Run(app);
+
+          
+           
         }
+        
     }
 }

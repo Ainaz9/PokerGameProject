@@ -9,13 +9,13 @@ namespace PokerGameRSF
     public class MyDbContext : DbContext
     {
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
-        public DbSet<User> User { get; set; }
-        public DbSet<Card> Card { get; set; }
-        public DbSet<Bet> Bet { get; set; }
-        public DbSet<PlayerCard> PlayerCard { get; set; }
-        public DbSet<PlayerAction> PlayerAction { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Card> Cards { get; set; }
+        public DbSet<Bet> Bets { get; set; }
+        public DbSet<PlayerCard> PlayerCards { get; set; }
+        public DbSet<PlayerAction> PlayerActions { get; set; }
 
-        public DbSet<GameSession> Session { get; set; }
+        public DbSet<GameSession> Sessions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
