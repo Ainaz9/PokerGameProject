@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using PokerGame;
 using PokerGame.Models;
 using PokerGameRSF;
@@ -13,9 +14,9 @@ namespace PokerGame
         private readonly IServiceProvider _serviceProvider;
 
         private readonly MyDbContext _context;
-        private readonly Logger _logger;
+        private readonly ILogger<RegisterForm> _logger;
 
-        public RegisterForm(MyDbContext context, Logger logger)
+        public RegisterForm(MyDbContext context, ILogger<RegisterForm> logger)
         {
             InitializeComponent();
             _serviceProvider = Program.ServiceProvider;
@@ -33,7 +34,7 @@ namespace PokerGame
             var loginForm = _serviceProvider.GetRequiredService<RegisterForm>();
             loginForm.Show();
             this.Hide();
-            _logger.Log("Форма регистрации закрыта, открывается форма авторизации");
+            _logger.LogInformation("Форма регистрации закрыта, открывается форма авторизации");
         }
 
         private void buttonRegister_Click(object sender, EventArgs e)
@@ -47,7 +48,7 @@ namespace PokerGame
             {
                 textBoxLoginReg.Text = "";
                 MessageBox.Show("Логин не может быть пустым");
-                _logger.Log($"Произошла неудачная попытка зарегистрироваться. Некорректный логин - {login}");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректный логин - {login}");
                 return;
             }
 
@@ -55,7 +56,7 @@ namespace PokerGame
             {
                 textBoxEmailReg.Text = "";
                 MessageBox.Show("Email не может быть пустым");
-                _logger.Log($"Произошла неудачная попытка зарегистрироваться. Некорректный email - {email}");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректный email - {email}");
                 return;
             }
 
@@ -63,7 +64,7 @@ namespace PokerGame
             {
                 textBoxPasswordReg.Text = "";
                 MessageBox.Show("Пароль не может быть пустым");
-                _logger.Log($"Произошла неудачная попытка зарегистрироваться. Некорректный пароль - {password}");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректный пароль - {password}");
                 return;
             }
 
@@ -71,7 +72,7 @@ namespace PokerGame
             {
                 textBoxRepeatPasswordReg.Text = "";
                 MessageBox.Show("Повторение пароля не может быть пустым");
-                _logger.Log($"Произошла неудачная попытка зарегистрироваться. Некорректный повтор пароля - {repeatedPassword}");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректный повтор пароля - {repeatedPassword}");
                 return;
             }
 
@@ -80,7 +81,7 @@ namespace PokerGame
                 textBoxPasswordReg.Text = "";
                 textBoxRepeatPasswordReg.Text = "";
 
-                _logger.Log($"Произошла неудачная попытка зарегистрироваться. Пароли не совпадают");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Пароли не совпадают");
                 MessageBox.Show("Пароли не совпадают");
                 return;
             }
@@ -96,12 +97,12 @@ namespace PokerGame
             if (foundedUser != null)
             {
                 MessageBox.Show("Такой пользователь уже зарегистрирован");
-                _logger.Log($"Произошла неудачная попытка зарегистрироваться. Такой пользователь уже есть");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Такой пользователь уже есть");
                 return;
             }
 
             _context.Users.Add(user);
-            _logger.Log($"Регистрация прошла успешно. Пользователь '{user.Id} {user.Email} {user.Login}' зарегистрирован");
+            _logger.LogInformation($"Регистрация прошла успешно. Пользователь '{user.Id} {user.Email} {user.Login}' зарегистрирован");
         }
 
         /*private void pictureBoxTogglePassword_Click(object sender, EventArgs e)
@@ -124,7 +125,12 @@ namespace PokerGame
 
         private void textBoxLoginReg_TextChanged(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

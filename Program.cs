@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
 using PokerGame;
 using PokerGameProject;
 using PokerGameRSF;
@@ -34,7 +36,13 @@ namespace PokerGame
             services.AddSingleton<MainMenuForm>();
             services.AddSingleton<App>();
             services.AddSingleton<AuthContainer>();
-            services.AddSingleton<Logger>();
+            services.AddLogging(loggingBuilder =>
+            {
+                // configure Logging with NLog
+                loggingBuilder.ClearProviders();
+                loggingBuilder.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+                loggingBuilder.AddNLog(configuration);
+            });
             ServiceProvider = services.BuildServiceProvider();
             ApplicationConfiguration.Initialize();
             var app = ServiceProvider.GetRequiredService<App>();

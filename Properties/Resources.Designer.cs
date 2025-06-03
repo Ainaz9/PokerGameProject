@@ -93,6 +93,16 @@ namespace PokerGameRSF.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap фишки_покер {
+            get {
+                object obj = ResourceManager.GetObject("фишки покер", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap фон_главное_меню_покер {
             get {
                 object obj = ResourceManager.GetObject("фон главное меню покер", resourceCulture);

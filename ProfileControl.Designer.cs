@@ -45,12 +45,14 @@
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
+            pictureBox7 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -213,10 +215,21 @@
             pictureBox6.TabIndex = 16;
             pictureBox6.TabStop = false;
             // 
+            // pictureBox7
+            // 
+            pictureBox7.Image = Properties.Resources.фишки_покер;
+            pictureBox7.Location = new Point(679, 163);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(125, 62);
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.TabIndex = 17;
+            pictureBox7.TabStop = false;
+            // 
             // ProfileControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(pictureBox7);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -242,6 +255,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -265,5 +279,6 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
+        private PictureBox pictureBox7;
     }
 }

@@ -31,8 +31,6 @@ namespace PokerGame
         private void InitializeComponent()
         {
             panelRegister = new Panel();
-            label1 = new Label();
-            checkBox1 = new CheckBox();
             linkLabelToLogin = new LinkLabel();
             buttonRegister = new Button();
             textBoxRepeatPasswordReg = new CueTextBox();
@@ -40,14 +38,15 @@ namespace PokerGame
             textBoxEmailReg = new CueTextBox();
             textBoxLoginReg = new CueTextBox();
             labelRegister = new Label();
+            pictureBox1 = new PictureBox();
             panelRegister.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panelRegister
             // 
             panelRegister.BackColor = Color.White;
-            panelRegister.Controls.Add(label1);
-            panelRegister.Controls.Add(checkBox1);
+            panelRegister.Controls.Add(pictureBox1);
             panelRegister.Controls.Add(linkLabelToLogin);
             panelRegister.Controls.Add(buttonRegister);
             panelRegister.Controls.Add(textBoxRepeatPasswordReg);
@@ -59,28 +58,6 @@ namespace PokerGame
             panelRegister.Name = "panelRegister";
             panelRegister.Size = new Size(505, 552);
             panelRegister.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(27, 45);
-            label1.Name = "label1";
-            label1.Size = new Size(124, 23);
-            label1.TabIndex = 8;
-            label1.Text = "Введите логин";
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.ForeColor = SystemColors.ActiveCaptionText;
-            checkBox1.Location = new Point(232, 254);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(148, 27);
-            checkBox1.TabIndex = 1;
-            checkBox1.Text = "скрыть пароль";
-            checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // linkLabelToLogin
             // 
@@ -152,6 +129,15 @@ namespace PokerGame
             labelRegister.TabIndex = 0;
             labelRegister.Text = "РЕГИСТРАЦИЯ";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(428, 289);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(41, 34);
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(9F, 23F);
@@ -164,6 +150,7 @@ namespace PokerGame
             Text = "Регистрация";
             panelRegister.ResumeLayout(false);
             panelRegister.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -177,7 +164,6 @@ namespace PokerGame
         private Label labelRegister;
         private Button buttonRegister;
         private LinkLabel linkLabelToLogin;
-        private CheckBox checkBox1;
-        private Label label1;
+        private PictureBox pictureBox1;
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using PokerGame.Models;
 using PokerGameRSF;
 using PokerGameRSF.Models;
@@ -22,9 +23,9 @@ namespace PokerGame
 
         private readonly MyDbContext _context;
 
-        private Logger _logger;
+        private ILogger<LoginForm> _logger;
 
-        public LoginForm(MyDbContext context, Logger logger)
+        public LoginForm(MyDbContext context, ILogger<LoginForm> logger)
         {
             InitializeComponent();
             _serviceProvider = Program.ServiceProvider;
@@ -45,7 +46,7 @@ namespace PokerGame
             {
                 textBoxLoginLog.Text = "";
                 MessageBox.Show("Логин не может быть пустым");
-                _logger.Log($"Произошла неудачная попытка авторизоваться. Некорректный логин - {login}");
+                _logger.LogError($"Произошла неудачная попытка авторизоваться. Некорректный логин - {login}");
                 return;
             }
 
@@ -53,7 +54,7 @@ namespace PokerGame
             {
                 textBoxPasswordLog.Text = "";
                 MessageBox.Show("Пароль не может быть пустым");
-                _logger.Log($"Произошла неудачная попытка авторизоваться. Некорректный пароль у пользователя - {login}");
+                _logger.LogError($"Произошла неудачная попытка авторизоваться. Некорректный пароль у пользователя - {login}");
                 return;
             }
 
@@ -67,14 +68,14 @@ namespace PokerGame
             if (foundedUser == null)
             {
                 MessageBox.Show("Такого пользователя не существует");
-                _logger.Log($"Произошла неудачная попытка авторизоваться. Пользователь с логином {login} не существует");
+                _logger.LogError($"Произошла неудачная попытка авторизоваться. Пользователь с логином {login} не существует");
                 return;
             }
 
             if (foundedUser.Password != user.Password)
             {
                 MessageBox.Show("Введён некорректный пароль");
-                _logger.Log($"Произошла неудачная попытка авторизоваться. Пользователь с логином {login} ввёл неверный пароль");
+                _logger.LogError($"Произошла неудачная попытка авторизоваться. Пользователь с логином {login} ввёл неверный пароль");
                 return;
             }
 
@@ -82,7 +83,7 @@ namespace PokerGame
             mainForm.Show();
             this.Close();
 
-            _logger.Log($"Успешная попытка авторизоваться. Пользователь '{user.Id} {user.Email} {user.Login}' авторизован");
+            _logger.LogInformation($"Успешная попытка авторизоваться. Пользователь '{user.Id} {user.Email} {user.Login}' авторизован");
         }
 
         private void linkLabelToRegistration_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
