@@ -130,7 +130,45 @@ namespace PokerGame
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            if (textBoxPasswordReg.UseSystemPasswordChar == false)
+            {
+                HidePassword();
 
+            }
+            else
+            {
+                ShowPassword();
+            }
+        }
+        private void HidePassword()
+        {
+            textBoxPasswordReg.UseSystemPasswordChar = true;
+            textBoxRepeatPasswordReg.UseSystemPasswordChar = true;
+            passwordLockPicture.Image = PokerGameRSF.Properties.Resources.замок_для_пароля;
+            repeatedPasswordLockPicture.Image = PokerGameRSF.Properties.Resources.замок_для_пароля;
+
+        }
+        private void ShowPassword()
+        {
+            textBoxPasswordReg.UseSystemPasswordChar = false;
+            textBoxRepeatPasswordReg.UseSystemPasswordChar = false;
+            passwordLockPicture.Image = PokerGameRSF.Properties.Resources.eye_fo_pin;
+            repeatedPasswordLockPicture.Image = PokerGameRSF.Properties.Resources.eye_fo_pin;
+
+        }
+
+        private void repeatedPasswordLockPicture_Click(object sender, EventArgs e)
+        {
+
+            if (textBoxPasswordReg.UseSystemPasswordChar == false)
+            {
+                HidePassword();
+
+            }
+            else
+            {
+                ShowPassword();
+            }
         }
     }
 

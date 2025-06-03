@@ -30,19 +30,20 @@
         {
             label1 = new Label();
             button1 = new Button();
-            button2 = new Button();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(469, 37);
             label1.BackColor = Color.Transparent;
+            label1.Location = new Point(455, 36);
             label1.Name = "label1";
             label1.Size = new Size(126, 20);
             label1.TabIndex = 0;
@@ -58,15 +59,6 @@
             button1.Text = "Начать игру";
             button1.UseVisualStyleBackColor = true;
             // 
-            // button2
-            // 
-            button2.Location = new Point(942, 28);
-            button2.Name = "button2";
-            button2.Size = new Size(132, 29);
-            button2.TabIndex = 2;
-            button2.Text = "Открыть меню";
-            button2.UseVisualStyleBackColor = true;
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -80,9 +72,8 @@
             // label3
             // 
             label3.AutoSize = true;
-
-            label3.Location = new Point(297, 284);
             label3.BackColor = Color.Transparent;
+            label3.Location = new Point(297, 284);
             label3.Name = "label3";
             label3.Size = new Size(640, 20);
             label3.TabIndex = 4;
@@ -91,8 +82,8 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(367, 320);
             label4.BackColor = Color.Transparent;
+            label4.Location = new Point(367, 320);
             label4.Name = "label4";
             label4.Size = new Size(431, 20);
             label4.TabIndex = 5;
@@ -100,14 +91,25 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = PokerGameRSF.Properties.Resources.покер_лицо;
             pictureBox1.Location = new Point(437, 98);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Size = new Size(212, 87);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Image = PokerGameRSF.Properties.Resources._3lines;
+            pictureBox2.Location = new Point(871, 98);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(125, 62);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 7;
+            pictureBox2.TabStop = false;
             // 
             // MainMenuForm
             // 
@@ -115,17 +117,18 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = PokerGameRSF.Properties.Resources.фон_главное_меню_покер;
             ClientSize = new Size(1182, 628);
+            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
             Name = "MainMenuForm";
             Text = "MainMenuForm";
             Load += MainMenuForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -134,10 +137,10 @@
 
         private Label label1;
         private Button button1;
-        private Button button2;
         private Label label2;
         private Label label3;
         private Label label4;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

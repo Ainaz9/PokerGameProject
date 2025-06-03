@@ -63,6 +63,26 @@ namespace PokerGameRSF.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3lines {
+            get {
+                object obj = ResourceManager.GetObject("3lines", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap eye_fo_pin {
+            get {
+                object obj = ResourceManager.GetObject("eye fo pin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap game_card {
             get {
                 object obj = ResourceManager.GetObject("game card", resourceCulture);
@@ -76,6 +96,16 @@ namespace PokerGameRSF.Properties {
         internal static System.Drawing.Bitmap ава_профиля {
             get {
                 object obj = ResourceManager.GetObject("ава профиля", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap замок_для_пароля {
+            get {
+                object obj = ResourceManager.GetObject("замок для пароля", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
