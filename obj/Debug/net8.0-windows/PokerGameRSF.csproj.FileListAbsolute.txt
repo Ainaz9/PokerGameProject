@@ -1,0 +1,240 @@
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.exe
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.deps.json
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.runtimeconfig.json
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.pdb
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Humanizer.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Npgsql.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.csproj.AssemblyReference.cache
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.FormPlayer1.resources
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.FormPlayer2.resources
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.csproj.GenerateResource.cache
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.GeneratedMSBuildEditorConfig.editorconfig
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.AssemblyInfoInputs.cache
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.AssemblyInfo.cs
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.csproj.CoreCompileInputs.cache
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGam.B9D59618.Up2Date
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\refint\PokerGameRSF.dll
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.pdb
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.genruntimeconfig.cache
+C:\C# ДЗ УНИВЕР\Иговый проект покер\PokerGameRSF\obj\Debug\net8.0-windows\ref\PokerGameRSF.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.exe
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.deps.json
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.runtimeconfig.json
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\PokerGameRSF.pdb
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Humanizer.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Npgsql.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.csproj.AssemblyReference.cache
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.FormPlayer1.resources
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.FormPlayer2.resources
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.csproj.GenerateResource.cache
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.GeneratedMSBuildEditorConfig.editorconfig
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.AssemblyInfoInputs.cache
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.AssemblyInfo.cs
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.csproj.CoreCompileInputs.cache
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGam.B9D59618.Up2Date
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\refint\PokerGameRSF.dll
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.pdb
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\PokerGameRSF.genruntimeconfig.cache
+C:\C# ДЗ УНИВЕР\ИтоговыйПроект\PokerGameRSF\obj\Debug\net8.0-windows\ref\PokerGameRSF.dll
