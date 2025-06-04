@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using PokerGame.Models;
+using PokerGameProject;
 using PokerGameRSF;
 using PokerGameRSF.Models;
 using System;
@@ -57,7 +58,9 @@ namespace PokerGame
                 _logger.LogError($"Произошла неудачная попытка авторизоваться. Некорректный пароль у пользователя - {login}");
                 return;
             }
-
+            var authContainer = _serviceProvider.GetRequiredService<AuthContainer>();
+            authContainer.SetAuthenticated("тест");
+            return;
             User user = new User();
 
             user.Login = login;

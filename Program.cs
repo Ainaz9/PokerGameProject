@@ -51,7 +51,8 @@ namespace PokerGame
             ServiceProvider = services.BuildServiceProvider();
             ApplicationConfiguration.Initialize();
             var app = ServiceProvider.GetRequiredService<App>();
-            Application.Run(app);
+            app.Show();
+            Application.Run();
 
           
            

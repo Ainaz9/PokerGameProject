@@ -28,22 +28,23 @@ namespace PokerGameProject
 
         private void App_Load(object sender, EventArgs e)
         {
-            var mainMenu1 = serviceProvider.GetRequiredService<MainMenuForm>();
+            /*var mainMenu1 = serviceProvider.GetRequiredService<MainMenuForm>();
             mainMenu1.Show();
-            return;
+            return;*/
             if (authContainer.IsAuthenticated == false)
             {
                 var loginForm = serviceProvider.GetRequiredService<LoginForm>();
                 loginForm.Show();
-                this.Hide();
-                this.Visible = false;
-                this.WindowState = FormWindowState.Minimized;
-                //this.ShowInTaskbar = false;
+                this.Close();
+               
+
             }
             else
             {
                 var mainMenu = serviceProvider.GetRequiredService<MainMenuForm>();
                 mainMenu.Show();
+                this.Close();
+
 
             }
         }
@@ -55,7 +56,7 @@ namespace PokerGameProject
             regForm.Close();
             var mainMenu = serviceProvider.GetRequiredService<MainMenuForm>();
             mainMenu.Show();
-
+            this.Close();
         }
 
 

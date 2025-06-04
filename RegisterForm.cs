@@ -39,41 +39,105 @@ namespace PokerGame
 
         private void buttonRegister_Click(object sender, EventArgs e)
         {
-            string login = textBoxLoginReg.Text.Trim();
-            string email = textBoxEmailReg.Text.Trim();
-            string password = textBoxPasswordReg.Text.Trim();
-            string repeatedPassword = textBoxRepeatPasswordReg.Text.Trim();
+            string login = textBoxLoginReg.Text;
+            string email = textBoxEmailReg.Text;
+            string password = textBoxPasswordReg.Text;
+            string repeatedPassword = textBoxRepeatPasswordReg.Text;
+            const string validLoginSymbols = "qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM";
+            const string validEmailSymbols = "qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM@.";
+            const string validPasswordSymbols = "qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM";
 
-            if (string.IsNullOrEmpty(login))
+            if (login.Length < 4)
             {
-                textBoxLoginReg.Text = "";
-                MessageBox.Show("Логин не может быть пустым");
-                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректный логин - {login}");
+                MessageBox.Show("В логине должно быть не менее 4 символов");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Логин меньше 4 символов");
                 return;
             }
-
-            if (string.IsNullOrEmpty(email))
+            foreach (var s in login)
             {
-                textBoxEmailReg.Text = "";
-                MessageBox.Show("Email не может быть пустым");
-                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректный email - {email}");
-                return;
+                if (validLoginSymbols.Contains(s) == false)
+                {
+
+                    MessageBox.Show($"В логине разрешены только такие символы: {validLoginSymbols}");
+                    _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Логин содержит запрещенные символы");
+                    return;
+                }
             }
 
-            if (string.IsNullOrEmpty(password))
+
+            foreach (var s in email)
             {
-                textBoxPasswordReg.Text = "";
-                MessageBox.Show("Пароль не может быть пустым");
-                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректный пароль - {password}");
+                if (validEmailSymbols.Contains(s) == false)
+                {
+
+                    MessageBox.Show($"В почте разрешены только такие символы: {validEmailSymbols}");
+                    _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Почта содержит запрещенные символы");
+                    return;
+                }
+            }
+            if (email.Contains("@") == false)
+            {
+                MessageBox.Show("В почте должен обязательно содержаться символ @");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Почта не содержит обязательный символ @");
                 return;
             }
-
-            if (string.IsNullOrEmpty(repeatedPassword))
+            if (email.Count(s => s == '@') == 1)
             {
-                textBoxRepeatPasswordReg.Text = "";
-                MessageBox.Show("Повторение пароля не может быть пустым");
-                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректный повтор пароля - {repeatedPassword}");
+                MessageBox.Show("В почте должен быть 1 символ @");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Почта не может содержать более 1 символа @");
                 return;
+            }
+            if (email.IndexOf("@") == 0)
+            {
+                MessageBox.Show("В почте символ @ не должен стоять в начале");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Почта не может содержать символ @ в начале почты");
+                return;
+            }
+            if (email.Count(s => s == '.') == 1)
+            {
+                MessageBox.Show("В почте должен быть 1 символ точки.");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. В почте должен быть 1 символ точки.");
+                return;
+            }
+            if (email.IndexOf(".") - email.IndexOf("@") < 0)
+            {
+                MessageBox.Show("Некорректно введена почта");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректно введена почта.");
+                return;
+
+            }
+            string[] splitted = email.Split("@.");
+            if (splitted.Length != 3)
+            {
+                MessageBox.Show("Некорректно введена почта");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректно введена почта.");
+                return;
+            }
+            foreach(var item in splitted)
+            {
+                if (item.Length < 1)
+                {
+                    MessageBox.Show("Некорректно введена почта");
+                    _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректно введена почта.");
+                    return;
+                }
+            }
+            
+            if (password.Length < 8)
+            {
+                MessageBox.Show("В пароле должно быть не менее 8 символов");
+                _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Пароль меньше 8 символов");
+                return;
+            }
+            foreach (var s in password)
+            {
+                if (validPasswordSymbols.Contains(s) == false)
+                {
+
+                    MessageBox.Show($"В пароле разрешены только такие символы: {validPasswordSymbols}");
+                    _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Пароль содержит запрещенные символы");
+                    return;
+                }
             }
 
             if (password != repeatedPassword)
@@ -170,6 +234,7 @@ namespace PokerGame
                 ShowPassword();
             }
         }
+
     }
 
 

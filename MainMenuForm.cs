@@ -73,7 +73,6 @@ namespace PokerGame
         }
         private void ShowRightMenu()
         {
-            contentPanel.Controls.Clear();
             var rightMenu = serviceProvider.GetRequiredService<MenuControl>();
             this.Controls.Add(rightMenu);
             rightMenu.Dock = DockStyle.Right;
