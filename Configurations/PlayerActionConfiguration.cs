@@ -1,4 +1,6 @@
-﻿using PokerGamesRSF.Models;
+using PokerGamesRSF.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
 
 namespace PokerGamesRSF.Configurations
 {

@@ -1,5 +1,6 @@
-﻿using PokerGamesRSF.Configurations;
+using PokerGamesRSF.Configurations;
 using PokerGamesRSF.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace PokerGamesRSF
 {
@@ -24,5 +25,14 @@ namespace PokerGamesRSF
             modelBuilder.ApplyConfiguration(new BetConfiguration());
             modelBuilder.ApplyConfiguration(new PlayerActionConfiguration());
         }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=Pokerdb;Username=postgres;Password=postgres");
+            }
+        }
+
+
     }
 }

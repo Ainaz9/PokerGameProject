@@ -1,9 +1,6 @@
-﻿using PokerGamesRSF.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using PokerGamesRSF.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
 
 namespace PokerGamesRSF.Configurations
 {
@@ -13,7 +10,7 @@ namespace PokerGamesRSF.Configurations
         {
             builder.HasKey(pc => pc.Id);
             builder.Property(pc => pc.IsInHand).IsRequired();
-            builder.Property(pc => pc.UserId).IsRequired(false); // Nullable for community cards
+            builder.Property(pc => pc.UserId).IsRequired(false); // Nullable для community cards
             builder.HasOne(pc => pc.GameSession)
                    .WithMany(gs => gs.PlayerCards)
                    .HasForeignKey(pc => pc.GameSessionId)

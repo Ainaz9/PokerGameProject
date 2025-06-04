@@ -1,15 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PokerData;
-using PokerData.Models;
+using PokerGamesRSF;
+using PokerGamesRSF.Models;
 using PokerGamesRSF.DTO;
 using PokerGamesRSF.Models;
 using PokerGamesRSF.Services;
 using PokerGamesRSF;
-using PokerServices.DTO;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using PokerGamesRSF.DTO;
 
 namespace PokerGamesRSF.Services
 {

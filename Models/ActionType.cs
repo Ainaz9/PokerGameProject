@@ -1,5 +1,8 @@
-﻿namespace PokerGamesRSF.Models
+namespace PokerGamesRSF.Models
 {
+    /// <summary>
+    /// Действия игрока во время ставки.
+    /// </summary>
     public enum ActionType
     {
         Fold,

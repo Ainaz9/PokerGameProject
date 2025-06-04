@@ -1,4 +1,8 @@
-﻿namespace PokerGamesRSF.Configurations
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using PokerGamesRSF.Models;
+
+namespace PokerGamesRSF.Configurations
 {
     public class UserConfiguration : IEntityTypeConfiguration<User>
     {
