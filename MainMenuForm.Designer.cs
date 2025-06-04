@@ -28,86 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            menuButtonPictureBox = new PictureBox();
+            contentNameLabel = new Label();
+            contentPanel = new Panel();
+            ((System.ComponentModel.ISupportInitialize)menuButtonPictureBox).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // menuButtonPictureBox
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(469, 37);
-            label1.BackColor = Color.Transparent;
-            label1.Name = "label1";
-            label1.Size = new Size(126, 20);
-            label1.TabIndex = 0;
-            label1.Text = "ГЛАВНОЕ МЕНЮ";
-            label1.Click += label1_Click;
+            menuButtonPictureBox.BackColor = Color.Transparent;
+            menuButtonPictureBox.Image = PokerGameRSF.Properties.Resources._3lines;
+            menuButtonPictureBox.Location = new Point(1004, 12);
+            menuButtonPictureBox.Name = "menuButtonPictureBox";
+            menuButtonPictureBox.Size = new Size(125, 62);
+            menuButtonPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            menuButtonPictureBox.TabIndex = 7;
+            menuButtonPictureBox.TabStop = false;
+            menuButtonPictureBox.Click += menuButtonPictureBox_Click;
             // 
-            // button1
+            // contentNameLabel
             // 
-            button1.Location = new Point(437, 471);
-            button1.Name = "button1";
-            button1.Size = new Size(213, 29);
-            button1.TabIndex = 1;
-            button1.Text = "Начать игру";
-            button1.UseVisualStyleBackColor = true;
+            contentNameLabel.AutoSize = true;
+            contentNameLabel.BackColor = Color.Transparent;
+            contentNameLabel.Location = new Point(455, 36);
+            contentNameLabel.Name = "contentNameLabel";
+            contentNameLabel.Size = new Size(126, 20);
+            contentNameLabel.TabIndex = 0;
+            contentNameLabel.Text = "ГЛАВНОЕ МЕНЮ";
+            contentNameLabel.Click += label1_Click;
             // 
-            // button2
+            // contentPanel
             // 
-            button2.Location = new Point(942, 28);
-            button2.Name = "button2";
-            button2.Size = new Size(132, 29);
-            button2.TabIndex = 2;
-            button2.Text = "Открыть меню";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Location = new Point(416, 210);
-            label2.Name = "label2";
-            label2.Size = new Size(266, 20);
-            label2.TabIndex = 3;
-            label2.Text = "♠ Добро пожаловать в PokerArena! ♠";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-
-            label3.Location = new Point(297, 284);
-            label3.BackColor = Color.Transparent;
-            label3.Name = "label3";
-            label3.Size = new Size(640, 20);
-            label3.TabIndex = 4;
-            label3.Text = "Погрузись в мир захватывающих покерных дуэлей.  Здесь ты можешь испытать                  ";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(367, 320);
-            label4.BackColor = Color.Transparent;
-            label4.Name = "label4";
-            label4.Size = new Size(431, 20);
-            label4.TabIndex = 5;
-            label4.Text = "свою удачу, стратегию и стать настоящим мастером покера!";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = PokerGameRSF.Properties.Resources.покер_лицо;
-            pictureBox1.Location = new Point(437, 98);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Size = new Size(212, 87);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
+            contentPanel.Location = new Point(12, 97);
+            contentPanel.Name = "contentPanel";
+            contentPanel.Size = new Size(1064, 450);
+            contentPanel.TabIndex = 8;
             // 
             // MainMenuForm
             // 
@@ -115,29 +70,21 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = PokerGameRSF.Properties.Resources.фон_главное_меню_покер;
             ClientSize = new Size(1182, 628);
-            Controls.Add(pictureBox1);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label1);
+            Controls.Add(contentPanel);
+            Controls.Add(menuButtonPictureBox);
+            Controls.Add(contentNameLabel);
             Name = "MainMenuForm";
             Text = "MainMenuForm";
             Load += MainMenuForm_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)menuButtonPictureBox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Button button1;
-        private Button button2;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private PictureBox pictureBox1;
+        private PictureBox menuButtonPictureBox;
+        private Label contentNameLabel;
+        private Panel contentPanel;
     }
 }

@@ -36,6 +36,11 @@ namespace PokerGame
             services.AddSingleton<MainMenuForm>();
             services.AddSingleton<App>();
             services.AddSingleton<AuthContainer>();
+            services.AddSingleton<MainMenuContentControl>();
+            services.AddSingleton<MenuControl>();
+            services.AddSingleton<RulesOfGame>();
+            services.AddSingleton<ProfileControl>();
+            services.AddSingleton<GameRoomControl>();
             services.AddLogging(loggingBuilder =>
             {
                 // configure Logging with NLog

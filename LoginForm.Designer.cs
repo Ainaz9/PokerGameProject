@@ -77,6 +77,7 @@ namespace PokerGame
             // 
             // textBoxPasswordLog
             // 
+            textBoxPasswordLog.Cue = null;
             textBoxPasswordLog.Font = new Font("Segoe UI", 13F);
             textBoxPasswordLog.Location = new Point(48, 237);
             textBoxPasswordLog.Name = "textBoxPasswordLog";
@@ -85,6 +86,7 @@ namespace PokerGame
             // 
             // textBoxLoginLog
             // 
+            textBoxLoginLog.Cue = null;
             textBoxLoginLog.Font = new Font("Segoe UI", 13F);
             textBoxLoginLog.Location = new Point(48, 176);
             textBoxLoginLog.Name = "textBoxLoginLog";
@@ -104,6 +106,7 @@ namespace PokerGame
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = PokerGameRSF.Properties.Resources.фон_главное_меню_покер;
             ClientSize = new Size(1182, 628);
             Controls.Add(panelEntrance);
             Name = "LoginForm";
