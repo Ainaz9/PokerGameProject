@@ -28,7 +28,9 @@ namespace PokerGameProject
 
         private void App_Load(object sender, EventArgs e)
         {
-
+            var mainMenu1 = serviceProvider.GetRequiredService<MainMenuForm>();
+            mainMenu1.Show();
+            return;
             if (authContainer.IsAuthenticated == false)
             {
                 var loginForm = serviceProvider.GetRequiredService<LoginForm>();

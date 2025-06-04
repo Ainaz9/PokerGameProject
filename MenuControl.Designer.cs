@@ -29,19 +29,23 @@
         private void InitializeComponent()
         {
             splitContainer1 = new SplitContainer();
+            panel1 = new Panel();
+            crossPictureBox = new PictureBox();
             pictureBox1 = new PictureBox();
             splitContainer2 = new SplitContainer();
-            button1 = new Button();
             splitContainer3 = new SplitContainer();
             flowLayoutPanel1 = new FlowLayoutPanel();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
+            mainMenuButton = new Button();
+            gameRoomButton = new Button();
+            profileButton = new Button();
+            rulesButton = new Button();
+            exitButton = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)crossPictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)splitContainer2).BeginInit();
             splitContainer2.Panel1.SuspendLayout();
@@ -62,16 +66,35 @@
             // 
             // splitContainer1.Panel1
             // 
-            splitContainer1.Panel1.Controls.Add(pictureBox1);
-            splitContainer1.Panel1.Paint += splitContainer1_Panel1_Paint;
+            splitContainer1.Panel1.Controls.Add(panel1);
             // 
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.Controls.Add(splitContainer2);
-            splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
             splitContainer1.Size = new Size(196, 473);
             splitContainer1.SplitterDistance = 163;
             splitContainer1.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(crossPictureBox);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(196, 163);
+            panel1.TabIndex = 0;
+            // 
+            // crossPictureBox
+            // 
+            crossPictureBox.Image = Properties.Resources.cross;
+            crossPictureBox.Location = new Point(144, 0);
+            crossPictureBox.Name = "crossPictureBox";
+            crossPictureBox.Size = new Size(52, 53);
+            crossPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            crossPictureBox.TabIndex = 1;
+            crossPictureBox.TabStop = false;
+            crossPictureBox.Click += CrossPictureBox_Click;
             // 
             // pictureBox1
             // 
@@ -97,20 +120,10 @@
             // 
             // splitContainer2.Panel2
             // 
-            splitContainer2.Panel2.Controls.Add(button1);
+            splitContainer2.Panel2.Controls.Add(exitButton);
             splitContainer2.Size = new Size(196, 306);
             splitContainer2.SplitterDistance = 220;
             splitContainer2.TabIndex = 0;
-            // 
-            // button1
-            // 
-            button1.Dock = DockStyle.Fill;
-            button1.Location = new Point(0, 0);
-            button1.Name = "button1";
-            button1.Size = new Size(196, 82);
-            button1.TabIndex = 0;
-            button1.Text = "ВЫЙТИ ИЗ АККАУНТА";
-            button1.UseVisualStyleBackColor = true;
             // 
             // splitContainer3
             // 
@@ -129,10 +142,10 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AutoSize = true;
-            flowLayoutPanel1.Controls.Add(button2);
-            flowLayoutPanel1.Controls.Add(button3);
-            flowLayoutPanel1.Controls.Add(button4);
-            flowLayoutPanel1.Controls.Add(button5);
+            flowLayoutPanel1.Controls.Add(mainMenuButton);
+            flowLayoutPanel1.Controls.Add(gameRoomButton);
+            flowLayoutPanel1.Controls.Add(profileButton);
+            flowLayoutPanel1.Controls.Add(rulesButton);
             flowLayoutPanel1.Dock = DockStyle.Fill;
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
             flowLayoutPanel1.Location = new Point(0, 0);
@@ -141,42 +154,57 @@
             flowLayoutPanel1.TabIndex = 0;
             flowLayoutPanel1.WrapContents = false;
             // 
-            // button2
+            // mainMenuButton
             // 
-            button2.Dock = DockStyle.Fill;
-            button2.Location = new Point(3, 3);
-            button2.Name = "button2";
-            button2.Size = new Size(193, 29);
-            button2.TabIndex = 0;
-            button2.Text = "Главное меню";
-            button2.UseVisualStyleBackColor = true;
+            mainMenuButton.Dock = DockStyle.Fill;
+            mainMenuButton.Location = new Point(3, 3);
+            mainMenuButton.Name = "mainMenuButton";
+            mainMenuButton.Size = new Size(193, 29);
+            mainMenuButton.TabIndex = 0;
+            mainMenuButton.Text = "Главное меню";
+            mainMenuButton.UseVisualStyleBackColor = true;
+            mainMenuButton.Click += mainMenuButton_Click;
             // 
-            // button3
+            // gameRoomButton
             // 
-            button3.Location = new Point(3, 38);
-            button3.Name = "button3";
-            button3.Size = new Size(193, 29);
-            button3.TabIndex = 1;
-            button3.Text = "Игровой стол";
-            button3.UseVisualStyleBackColor = true;
+            gameRoomButton.Location = new Point(3, 38);
+            gameRoomButton.Name = "gameRoomButton";
+            gameRoomButton.Size = new Size(193, 29);
+            gameRoomButton.TabIndex = 1;
+            gameRoomButton.Text = "Игровой стол";
+            gameRoomButton.UseVisualStyleBackColor = true;
+            gameRoomButton.Click += gameRoomButton_Click;
             // 
-            // button4
+            // profileButton
             // 
-            button4.Location = new Point(3, 73);
-            button4.Name = "button4";
-            button4.Size = new Size(193, 29);
-            button4.TabIndex = 2;
-            button4.Text = "Профиль";
-            button4.UseVisualStyleBackColor = true;
+            profileButton.Location = new Point(3, 73);
+            profileButton.Name = "profileButton";
+            profileButton.Size = new Size(193, 29);
+            profileButton.TabIndex = 2;
+            profileButton.Text = "Профиль";
+            profileButton.UseVisualStyleBackColor = true;
+            profileButton.Click += profileButton_Click;
             // 
-            // button5
+            // rulesButton
             // 
-            button5.Location = new Point(3, 108);
-            button5.Name = "button5";
-            button5.Size = new Size(193, 29);
-            button5.TabIndex = 3;
-            button5.Text = "Правила игры";
-            button5.UseVisualStyleBackColor = true;
+            rulesButton.Location = new Point(3, 108);
+            rulesButton.Name = "rulesButton";
+            rulesButton.Size = new Size(193, 29);
+            rulesButton.TabIndex = 3;
+            rulesButton.Text = "Правила игры";
+            rulesButton.UseVisualStyleBackColor = true;
+            rulesButton.Click += rulesButton_Click;
+            // 
+            // exitButton
+            // 
+            exitButton.Dock = DockStyle.Fill;
+            exitButton.Location = new Point(0, 0);
+            exitButton.Name = "exitButton";
+            exitButton.Size = new Size(196, 82);
+            exitButton.TabIndex = 0;
+            exitButton.Text = "ВЫЙТИ ИЗ АККАУНТА";
+            exitButton.UseVisualStyleBackColor = true;
+            exitButton.Click += exitButton_Click;
             // 
             // MenuControl
             // 
@@ -189,6 +217,8 @@
             splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)crossPictureBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             splitContainer2.Panel1.ResumeLayout(false);
             splitContainer2.Panel2.ResumeLayout(false);
@@ -205,14 +235,16 @@
         #endregion
 
         private SplitContainer splitContainer1;
-        private PictureBox pictureBox1;
         private SplitContainer splitContainer2;
         private SplitContainer splitContainer3;
         private FlowLayoutPanel flowLayoutPanel1;
-        private Button button2;
-        private Button button3;
-        private Button button1;
-        private Button button4;
-        private Button button5;
+        private Button mainMenuButton;
+        private Button gameRoomButton;
+        private Button exitButton;
+        private Button profileButton;
+        private Button rulesButton;
+        private Panel panel1;
+        private PictureBox pictureBox1;
+        private PictureBox crossPictureBox;
     }
 }

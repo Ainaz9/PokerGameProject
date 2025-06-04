@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             textBox1 = new TextBox();
             label2 = new Label();
             label3 = new Label();
@@ -46,6 +45,7 @@
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
             pictureBox7 = new PictureBox();
+            pictureBox8 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -53,17 +53,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(353, 148);
-            label1.Name = "label1";
-            label1.Size = new Size(92, 20);
-            label1.TabIndex = 0;
-            label1.Text = "\"Карандаш\"";
-            label1.Click += label1_Click;
             // 
             // textBox1
             // 
@@ -78,6 +69,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(197, 190);
             label2.Name = "label2";
+            label2.BackColor = Color.Transparent;
             label2.Size = new Size(68, 20);
             label2.TabIndex = 2;
             label2.Text = "БАЛАНС";
@@ -87,6 +79,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(197, 228);
             label3.Name = "label3";
+            label3.BackColor = Color.Transparent;
             label3.Size = new Size(101, 20);
             label3.TabIndex = 3;
             label3.Text = "Сыграно игр:";
@@ -98,6 +91,7 @@
             label4.Name = "label4";
             label4.Size = new Size(116, 20);
             label4.TabIndex = 4;
+            label4.BackColor = Color.Transparent;
             label4.Text = "количество игр";
             // 
             // label5
@@ -107,6 +101,7 @@
             label5.Name = "label5";
             label5.Size = new Size(105, 20);
             label5.TabIndex = 5;
+            label5.BackColor = Color.Transparent;
             label5.Text = "Начал играть:";
             // 
             // label6
@@ -117,6 +112,7 @@
             label6.Size = new Size(39, 20);
             label6.TabIndex = 6;
             label6.Text = "дата";
+            label6.BackColor = Color.Transparent;
             label6.Click += label6_Click;
             // 
             // label7
@@ -126,6 +122,7 @@
             label7.Name = "label7";
             label7.Size = new Size(154, 20);
             label7.TabIndex = 7;
+            label7.BackColor = Color.Transparent;
             label7.Text = "Лучшая комбинация";
             // 
             // label8
@@ -135,6 +132,7 @@
             label8.Name = "label8";
             label8.Size = new Size(134, 20);
             label8.TabIndex = 8;
+            label8.BackColor = Color.Transparent;
             label8.Text = "Лучший выйгрыш";
             // 
             // label9
@@ -144,6 +142,7 @@
             label9.Name = "label9";
             label9.Size = new Size(140, 20);
             label9.TabIndex = 9;
+            label9.BackColor = Color.Transparent;
             label9.Text = "Количество фишек";
             // 
             // button1
@@ -152,6 +151,7 @@
             button1.Name = "button1";
             button1.Size = new Size(197, 29);
             button1.TabIndex = 10;
+            button1.BackColor = Color.Transparent;
             button1.Text = "Изменить фото профиля";
             button1.UseVisualStyleBackColor = true;
             // 
@@ -163,6 +163,7 @@
             pictureBox1.Size = new Size(125, 62);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 11;
+            pictureBox1.BackColor = Color.Transparent;
             pictureBox1.TabStop = false;
             // 
             // pictureBox2
@@ -173,6 +174,7 @@
             pictureBox2.Size = new Size(125, 62);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 12;
+            pictureBox2.BackColor = Color.Transparent;
             pictureBox2.TabStop = false;
             // 
             // pictureBox3
@@ -183,6 +185,7 @@
             pictureBox3.Size = new Size(125, 62);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 13;
+            pictureBox3.BackColor = Color.Transparent;
             pictureBox3.TabStop = false;
             // 
             // pictureBox4
@@ -193,6 +196,7 @@
             pictureBox4.Size = new Size(125, 62);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 14;
+            pictureBox4.BackColor = Color.Transparent;
             pictureBox4.TabStop = false;
             // 
             // pictureBox5
@@ -203,6 +207,7 @@
             pictureBox5.Size = new Size(125, 62);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 15;
+            pictureBox5.BackColor = Color.Transparent;
             pictureBox5.TabStop = false;
             // 
             // pictureBox6
@@ -213,6 +218,7 @@
             pictureBox6.Size = new Size(125, 62);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 16;
+            pictureBox6.BackColor = Color.Transparent;
             pictureBox6.TabStop = false;
             // 
             // pictureBox7
@@ -223,12 +229,25 @@
             pictureBox7.Size = new Size(125, 62);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 17;
+            pictureBox7.BackColor = Color.Transparent;
             pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = Properties.Resources.pencilPoker;
+            pictureBox8.Location = new Point(348, 145);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(26, 27);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 18;
+            pictureBox8.BackColor = Color.Transparent;
+            pictureBox8.TabStop = false;
             // 
             // ProfileControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(pictureBox8);
             Controls.Add(pictureBox7);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
@@ -246,7 +265,6 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(textBox1);
-            Controls.Add(label1);
             Name = "ProfileControl";
             Size = new Size(850, 459);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -256,13 +274,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
         private TextBox textBox1;
         private Label label2;
         private Label label3;
@@ -280,5 +297,6 @@
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
         private PictureBox pictureBox7;
+        private PictureBox pictureBox8;
     }
 }

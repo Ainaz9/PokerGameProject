@@ -118,28 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Combinations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Combinations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pencilPoker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pencilPoker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Equal 2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Equal 2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greenRectangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenRectangle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="замок для пароля" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\замок для пароля.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="покер лицо" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\покер лицо.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="game card" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\game card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3lines" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3lines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="whiteColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whiteColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pokerCard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pokerCard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="фишки покер" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\фишки покер.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TextOfRules" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextOfRules.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profilePhoto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profilePhoto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ава профиля" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ава профиля.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pokerCard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pokerCard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playCards" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playCards.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chek.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pokerTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pokerTable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circlePoker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circlePoker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye fo pin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye fo pin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3lines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3lines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="фон главное меню покер" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\фон главное меню покер.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eye fo pin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eye fo pin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="покер лицо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\покер лицо.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
