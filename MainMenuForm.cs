@@ -48,6 +48,8 @@ namespace PokerGame
             var mainMenuContentControl = serviceProvider.GetRequiredService<MainMenuContentControl>();
             contentPanel.Controls.Add(mainMenuContentControl);
             mainMenuContentControl.Dock = DockStyle.Fill;
+            contentPanel.BackColor = Color.White;
+            contentNameLabel.Text = "Главное меню";
 
         }
         private void ShowRulesOfGameContent()
@@ -56,6 +58,9 @@ namespace PokerGame
             var rulesOfGameControl = serviceProvider.GetRequiredService<RulesOfGame>();
             contentPanel.Controls.Add(rulesOfGameControl);
             rulesOfGameControl.Dock = DockStyle.Fill;
+            contentPanel.BackColor = Color.White;
+            contentNameLabel.Text = "Правила игры";
+
         }
         private void ShowGameRoomContent()
         {
@@ -63,6 +68,9 @@ namespace PokerGame
             var gameRoomControl = serviceProvider.GetRequiredService<GameRoomControl>();
             contentPanel.Controls.Add(gameRoomControl);
             gameRoomControl.Dock = DockStyle.Fill;
+            contentPanel.BackColor = Color.Transparent;
+            contentNameLabel.Text = "Игровая комната";
+
         }
         private void ShowProfileContent()
         {
@@ -70,6 +78,9 @@ namespace PokerGame
             var profileControl = serviceProvider.GetRequiredService<ProfileControl>();
             contentPanel.Controls.Add(profileControl);
             profileControl.Dock = DockStyle.Fill;
+            contentPanel.BackColor = Color.White;
+            contentNameLabel.Text = "Профиль";
+
         }
         private void ShowRightMenu()
         {

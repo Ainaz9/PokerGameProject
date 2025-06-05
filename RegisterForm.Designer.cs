@@ -31,16 +31,17 @@ namespace PokerGame
         private void InitializeComponent()
         {
             panelRegister = new Panel();
+            buttonRegisterPicture = new PictureBox();
             repeatedPasswordLockPicture = new PictureBox();
             passwordLockPicture = new PictureBox();
             linkLabelToLogin = new LinkLabel();
-            buttonRegister = new Button();
             textBoxRepeatPasswordReg = new CueTextBox();
             textBoxPasswordReg = new CueTextBox();
             textBoxEmailReg = new CueTextBox();
             textBoxLoginReg = new CueTextBox();
             labelRegister = new Label();
             panelRegister.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)buttonRegisterPicture).BeginInit();
             ((System.ComponentModel.ISupportInitialize)repeatedPasswordLockPicture).BeginInit();
             ((System.ComponentModel.ISupportInitialize)passwordLockPicture).BeginInit();
             SuspendLayout();
@@ -48,10 +49,10 @@ namespace PokerGame
             // panelRegister
             // 
             panelRegister.BackColor = Color.White;
+            panelRegister.Controls.Add(buttonRegisterPicture);
             panelRegister.Controls.Add(repeatedPasswordLockPicture);
             panelRegister.Controls.Add(passwordLockPicture);
             panelRegister.Controls.Add(linkLabelToLogin);
-            panelRegister.Controls.Add(buttonRegister);
             panelRegister.Controls.Add(textBoxRepeatPasswordReg);
             panelRegister.Controls.Add(textBoxPasswordReg);
             panelRegister.Controls.Add(textBoxEmailReg);
@@ -62,9 +63,20 @@ namespace PokerGame
             panelRegister.Size = new Size(505, 552);
             panelRegister.TabIndex = 0;
             // 
+            // buttonRegisterPicture
+            // 
+            buttonRegisterPicture.Image = PokerGameRSF.Properties.Resources.buttonRegistration;
+            buttonRegisterPicture.Location = new Point(147, 406);
+            buttonRegisterPicture.Name = "buttonRegisterPicture";
+            buttonRegisterPicture.Size = new Size(198, 62);
+            buttonRegisterPicture.SizeMode = PictureBoxSizeMode.StretchImage;
+            buttonRegisterPicture.TabIndex = 10;
+            buttonRegisterPicture.TabStop = false;
+            buttonRegisterPicture.Click += buttonRegisterPicture_Click_1;
+            // 
             // repeatedPasswordLockPicture
             // 
-            repeatedPasswordLockPicture.Image = PokerGameRSF.Properties.Resources.замок_для_пароля;
+            repeatedPasswordLockPicture.Image = PokerGameRSF.Properties.Resources.eye_fo_pin;
             repeatedPasswordLockPicture.Location = new Point(415, 340);
             repeatedPasswordLockPicture.Name = "repeatedPasswordLockPicture";
             repeatedPasswordLockPicture.Size = new Size(41, 36);
@@ -75,7 +87,7 @@ namespace PokerGame
             // 
             // passwordLockPicture
             // 
-            passwordLockPicture.Image = PokerGameRSF.Properties.Resources.замок_для_пароля;
+            passwordLockPicture.Image = PokerGameRSF.Properties.Resources.eye_fo_pin;
             passwordLockPicture.Location = new Point(415, 287);
             passwordLockPicture.Name = "passwordLockPicture";
             passwordLockPicture.Size = new Size(41, 34);
@@ -92,19 +104,6 @@ namespace PokerGame
             linkLabelToLogin.TabIndex = 7;
             linkLabelToLogin.TabStop = true;
             linkLabelToLogin.Text = "Уже есть аккаунт?";
-            // 
-            // buttonRegister
-            // 
-            buttonRegister.BackColor = Color.Gray;
-            buttonRegister.FlatStyle = FlatStyle.Flat;
-            buttonRegister.Font = new Font("Segoe UI", 10F);
-            buttonRegister.Location = new Point(117, 417);
-            buttonRegister.Name = "buttonRegister";
-            buttonRegister.Size = new Size(271, 63);
-            buttonRegister.TabIndex = 5;
-            buttonRegister.Text = "Зарегистрироваться";
-            buttonRegister.UseVisualStyleBackColor = false;
-            buttonRegister.Click += buttonRegister_Click;
             // 
             // textBoxRepeatPasswordReg
             // 
@@ -167,6 +166,7 @@ namespace PokerGame
             Text = "Регистрация";
             panelRegister.ResumeLayout(false);
             panelRegister.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)buttonRegisterPicture).EndInit();
             ((System.ComponentModel.ISupportInitialize)repeatedPasswordLockPicture).EndInit();
             ((System.ComponentModel.ISupportInitialize)passwordLockPicture).EndInit();
             ResumeLayout(false);
@@ -180,9 +180,9 @@ namespace PokerGame
         private CueTextBox textBoxEmailReg;
         private CueTextBox textBoxLoginReg;
         private Label labelRegister;
-        private Button buttonRegister;
         private LinkLabel linkLabelToLogin;
         private PictureBox passwordLockPicture;
         private PictureBox repeatedPasswordLockPicture;
+        private PictureBox buttonRegisterPicture;
     }
 }

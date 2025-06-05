@@ -36,8 +36,7 @@ namespace PokerGame
             this.Hide();
             _logger.LogInformation("Форма регистрации закрыта, открывается форма авторизации");
         }
-
-        private void buttonRegister_Click(object sender, EventArgs e)
+        private void buttonRegisterPicture_Click_1(object sender, EventArgs e)
         {
             string login = textBoxLoginReg.Text;
             string email = textBoxEmailReg.Text;
@@ -113,7 +112,7 @@ namespace PokerGame
                 _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Некорректно введена почта.");
                 return;
             }
-            foreach(var item in splitted)
+            foreach (var item in splitted)
             {
                 if (item.Length < 1)
                 {
@@ -122,7 +121,7 @@ namespace PokerGame
                     return;
                 }
             }
-            
+
             if (password.Length < 8)
             {
                 MessageBox.Show("В пароле должно быть не менее 8 символов");
@@ -196,29 +195,16 @@ namespace PokerGame
         {
             if (textBoxPasswordReg.UseSystemPasswordChar == false)
             {
-                HidePassword();
+                textBoxPasswordReg.UseSystemPasswordChar = true;
+                passwordLockPicture.Image = PokerGameRSF.Properties.Resources.замок_для_пароля;
 
             }
             else
             {
-                ShowPassword();
+                textBoxPasswordReg.UseSystemPasswordChar = false;
+                passwordLockPicture.Image = PokerGameRSF.Properties.Resources.eye_fo_pin;
+                
             }
-        }
-        private void HidePassword()
-        {
-            textBoxPasswordReg.UseSystemPasswordChar = true;
-            textBoxRepeatPasswordReg.UseSystemPasswordChar = true;
-            passwordLockPicture.Image = PokerGameRSF.Properties.Resources.замок_для_пароля;
-            repeatedPasswordLockPicture.Image = PokerGameRSF.Properties.Resources.замок_для_пароля;
-
-        }
-        private void ShowPassword()
-        {
-            textBoxPasswordReg.UseSystemPasswordChar = false;
-            textBoxRepeatPasswordReg.UseSystemPasswordChar = false;
-            passwordLockPicture.Image = PokerGameRSF.Properties.Resources.eye_fo_pin;
-            repeatedPasswordLockPicture.Image = PokerGameRSF.Properties.Resources.eye_fo_pin;
-
         }
 
         private void repeatedPasswordLockPicture_Click(object sender, EventArgs e)
@@ -226,15 +212,17 @@ namespace PokerGame
 
             if (textBoxPasswordReg.UseSystemPasswordChar == false)
             {
-                HidePassword();
-
+                textBoxRepeatPasswordReg.UseSystemPasswordChar = true;
+                repeatedPasswordLockPicture.Image = PokerGameRSF.Properties.Resources.замок_для_пароля;
             }
             else
             {
-                ShowPassword();
+                textBoxRepeatPasswordReg.UseSystemPasswordChar = false;
+                repeatedPasswordLockPicture.Image = PokerGameRSF.Properties.Resources.eye_fo_pin;
             }
         }
 
+        
     }
 
 

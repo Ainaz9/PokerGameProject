@@ -73,6 +73,46 @@ namespace PokerGameRSF.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap buttonChangePhoto {
+            get {
+                object obj = ResourceManager.GetObject("buttonChangePhoto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonLogin {
+            get {
+                object obj = ResourceManager.GetObject("buttonLogin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonRegistration {
+            get {
+                object obj = ResourceManager.GetObject("buttonRegistration", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonStartGame {
+            get {
+                object obj = ResourceManager.GetObject("buttonStartGame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Chek {
             get {
                 object obj = ResourceManager.GetObject("Chek", resourceCulture);
@@ -216,6 +256,16 @@ namespace PokerGameRSF.Properties {
         internal static System.Drawing.Bitmap profilePhoto {
             get {
                 object obj = ResourceManager.GetObject("profilePhoto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap russianFlag {
+            get {
+                object obj = ResourceManager.GetObject("russianFlag", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -31,19 +31,20 @@ namespace PokerGame
         private void InitializeComponent()
         {
             panelEntrance = new Panel();
+            loginButtonPicture = new PictureBox();
             linkLabelToRegistration = new LinkLabel();
-            buttonLogin = new Button();
             textBoxPasswordLog = new CueTextBox();
             textBoxLoginLog = new CueTextBox();
             labelLogin = new Label();
             panelEntrance.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)loginButtonPicture).BeginInit();
             SuspendLayout();
             // 
             // panelEntrance
             // 
             panelEntrance.BackColor = Color.White;
+            panelEntrance.Controls.Add(loginButtonPicture);
             panelEntrance.Controls.Add(linkLabelToRegistration);
-            panelEntrance.Controls.Add(buttonLogin);
             panelEntrance.Controls.Add(textBoxPasswordLog);
             panelEntrance.Controls.Add(textBoxLoginLog);
             panelEntrance.Controls.Add(labelLogin);
@@ -51,6 +52,17 @@ namespace PokerGame
             panelEntrance.Name = "panelEntrance";
             panelEntrance.Size = new Size(449, 480);
             panelEntrance.TabIndex = 1;
+            // 
+            // loginButtonPicture
+            // 
+            loginButtonPicture.Image = PokerGameRSF.Properties.Resources.buttonLogin;
+            loginButtonPicture.Location = new Point(115, 324);
+            loginButtonPicture.Name = "loginButtonPicture";
+            loginButtonPicture.Size = new Size(210, 62);
+            loginButtonPicture.SizeMode = PictureBoxSizeMode.StretchImage;
+            loginButtonPicture.TabIndex = 7;
+            loginButtonPicture.TabStop = false;
+            loginButtonPicture.Click += loginButtonPicture_Click;
             // 
             // linkLabelToRegistration
             // 
@@ -61,19 +73,6 @@ namespace PokerGame
             linkLabelToRegistration.TabStop = true;
             linkLabelToRegistration.Text = "У вас нет аккаунта?";
             linkLabelToRegistration.LinkClicked += linkLabelToRegistration_LinkClicked;
-            // 
-            // buttonLogin
-            // 
-            buttonLogin.BackColor = Color.Gray;
-            buttonLogin.Font = new Font("Segoe UI", 13F);
-            buttonLogin.ForeColor = SystemColors.ButtonHighlight;
-            buttonLogin.Location = new Point(102, 347);
-            buttonLogin.Name = "buttonLogin";
-            buttonLogin.Size = new Size(241, 55);
-            buttonLogin.TabIndex = 5;
-            buttonLogin.Text = "Войти";
-            buttonLogin.UseVisualStyleBackColor = false;
-            buttonLogin.Click += buttonLogin_Click;
             // 
             // textBoxPasswordLog
             // 
@@ -113,16 +112,17 @@ namespace PokerGame
             Text = "Вход";
             panelEntrance.ResumeLayout(false);
             panelEntrance.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)loginButtonPicture).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panelEntrance;
-        private Button buttonLogin;
         private CueTextBox textBoxPasswordLog;
         private CueTextBox textBoxLoginLog;
         private Label labelLogin;
         private LinkLabel linkLabelToRegistration;
+        private PictureBox loginButtonPicture;
     }
 }

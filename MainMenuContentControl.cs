@@ -16,5 +16,19 @@ namespace PokerGameRSF
         {
             InitializeComponent();
         }
+
+        private void startgameLabel_Click(object sender, EventArgs e)
+        {
+            StartGameButtonClick();
+        }
+
+        private void startGameButtonPicture_Click(object sender, EventArgs e)
+        {
+            StartGameButtonClick();
+        }
+        private void StartGameButtonClick()
+        {
+
+        }
     }
 }
