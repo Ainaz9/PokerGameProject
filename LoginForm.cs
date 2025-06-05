@@ -37,8 +37,7 @@ namespace PokerGame
             textBoxPasswordLog.Cue = "Введите пароль";
         }
 
-
-        private void buttonLogin_Click(object sender, EventArgs e)
+        private void loginButtonPicture_Click(object sender, EventArgs e)
         {
             string login = textBoxLoginLog.Text.Trim();
             string password = textBoxPasswordLog.Text.Trim();
@@ -96,6 +95,8 @@ namespace PokerGame
             registrationForm.Show();
             this.Hide();
         }
+
+        
     }
 
 }

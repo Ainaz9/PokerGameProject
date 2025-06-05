@@ -1,4 +1,7 @@
-﻿namespace PokerGameRSF
+﻿using System;
+using System.Drawing;
+
+namespace PokerGameRSF
 {
     partial class MainMenuContentControl
     {
@@ -32,15 +35,17 @@
             pictureBox3 = new PictureBox();
             label4 = new Label();
             label3 = new Label();
-            button1 = new Button();
+            startGameButtonPicture = new PictureBox();
+            startgameLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)startGameButtonPicture).BeginInit();
             SuspendLayout();
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Location = new Point(413, 256);
+            label2.Location = new Point(401, 247);
             label2.Name = "label2";
             label2.Size = new Size(266, 20);
             label2.TabIndex = 8;
@@ -77,27 +82,43 @@
             label3.TabIndex = 12;
             label3.Text = "Погрузись в мир захватывающих покерных дуэлей.  Здесь ты можешь испытать                  ";
             // 
-            // button1
+            // startGameButtonPicture
             // 
-            button1.Location = new Point(434, 407);
-            button1.Name = "button1";
-            button1.Size = new Size(213, 29);
-            button1.TabIndex = 10;
-            button1.Text = "Начать игру";
-            button1.UseVisualStyleBackColor = true;
+            startGameButtonPicture.BackColor = Color.Transparent;
+            startGameButtonPicture.Image = Properties.Resources.buttonStartGame;
+            startGameButtonPicture.Location = new Point(459, 486);
+            startGameButtonPicture.Name = "startGameButtonPicture";
+            startGameButtonPicture.Size = new Size(161, 46);
+            startGameButtonPicture.SizeMode = PictureBoxSizeMode.StretchImage;
+            startGameButtonPicture.TabIndex = 15;
+            startGameButtonPicture.TabStop = false;
+            startGameButtonPicture.Click += startGameButtonPicture_Click;
+            // 
+            // startgameLabel
+            // 
+            startgameLabel.AutoSize = true;
+            startgameLabel.BackColor = Color.White;
+            startgameLabel.Location = new Point(494, 498);
+            startgameLabel.Name = "startgameLabel";
+            startgameLabel.Size = new Size(93, 20);
+            startgameLabel.TabIndex = 16;
+            startgameLabel.Text = "Начать игру";
+            startgameLabel.Click += startgameLabel_Click;
             // 
             // MainMenuContentControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label2);
+            Controls.Add(startgameLabel);
+            Controls.Add(startGameButtonPicture);
             Controls.Add(pictureBox3);
             Controls.Add(label4);
             Controls.Add(label3);
-            Controls.Add(button1);
-            Controls.Add(label2);
             Name = "MainMenuContentControl";
             Size = new Size(1074, 613);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)startGameButtonPicture).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -107,6 +128,7 @@
         private PictureBox pictureBox3;
         private Label label4;
         private Label label3;
-        private Button button1;
+        private PictureBox startGameButtonPicture;
+        private Label startgameLabel;
     }
 }

@@ -92,6 +92,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.BackColor = Color.Transparent;
             // 
             // pictureBox3
             // 
@@ -145,6 +146,7 @@
             // 
             // pictureBox7
             // 
+            pictureBox7.BackColor = Color.FromArgb(0, 120, 0);
             pictureBox7.Image = Properties.Resources.circlePoker;
             pictureBox7.Location = new Point(478, 163);
             pictureBox7.Name = "pictureBox7";

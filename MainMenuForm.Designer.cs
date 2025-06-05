@@ -63,6 +63,7 @@
             contentPanel.Name = "contentPanel";
             contentPanel.Size = new Size(1064, 450);
             contentPanel.TabIndex = 8;
+            //contentPanel.BackColor = Color.Transparent;
             // 
             // MainMenuForm
             // 
