@@ -104,10 +104,11 @@
             // 
             // crossPictureBox
             // 
-            crossPictureBox.Image = Properties.Resources.cross;
-            crossPictureBox.Location = new Point(188, -1);
+            crossPictureBox.BackColor = Color.White;
+            crossPictureBox.Image = Properties.Resources.cross2Poker;
+            crossPictureBox.Location = new Point(210, 10);
             crossPictureBox.Name = "crossPictureBox";
-            crossPictureBox.Size = new Size(52, 53);
+            crossPictureBox.Size = new Size(20, 20);
             crossPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
             crossPictureBox.TabIndex = 1;
             crossPictureBox.TabStop = false;

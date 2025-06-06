@@ -133,6 +133,16 @@ namespace PokerGameRSF.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap circlePoker1 {
+            get {
+                object obj = ResourceManager.GetObject("circlePoker1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Combinations {
             get {
                 object obj = ResourceManager.GetObject("Combinations", resourceCulture);
@@ -146,6 +156,16 @@ namespace PokerGameRSF.Properties {
         internal static System.Drawing.Bitmap cross {
             get {
                 object obj = ResourceManager.GetObject("cross", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cross2Poker {
+            get {
+                object obj = ResourceManager.GetObject("cross2Poker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +236,16 @@ namespace PokerGameRSF.Properties {
         internal static System.Drawing.Bitmap playCards {
             get {
                 object obj = ResourceManager.GetObject("playCards", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plusForPoker {
+            get {
+                object obj = ResourceManager.GetObject("plusForPoker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
