@@ -6,8 +6,10 @@ using NLog.Extensions.Logging;
 using PokerGame;
 using PokerGameProject;
 using PokerGameRSF;
+using PokerGameRSF.DataAccess;
 using PokerGameRSF.Models;
 using System;
+
 
 namespace PokerGame
 {
@@ -49,7 +51,12 @@ namespace PokerGame
                 loggingBuilder.AddNLog(configuration);
             });
             ServiceProvider = services.BuildServiceProvider();
-            ApplicationConfiguration.Initialize();
+            using (var scope = ServiceProvider.CreateScope())
+            {
+                var dbContext = scope.ServiceProvider.GetRequiredService<MyDbContext>();
+                dbContext.Database.Migrate();
+            }
+                ApplicationConfiguration.Initialize();
             var app = ServiceProvider.GetRequiredService<App>();
             app.Show();
             Application.Run();

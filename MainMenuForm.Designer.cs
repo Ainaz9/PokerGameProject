@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenuForm));
             menuButtonPictureBox = new PictureBox();
             contentNameLabel = new Label();
             contentPanel = new Panel();
@@ -38,44 +39,32 @@
             // 
             menuButtonPictureBox.BackColor = Color.Transparent;
             menuButtonPictureBox.Image = PokerGameRSF.Properties.Resources._3lines;
-            menuButtonPictureBox.Location = new Point(1004, 12);
+            resources.ApplyResources(menuButtonPictureBox, "menuButtonPictureBox");
             menuButtonPictureBox.Name = "menuButtonPictureBox";
-            menuButtonPictureBox.Size = new Size(125, 62);
-            menuButtonPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-            menuButtonPictureBox.TabIndex = 7;
             menuButtonPictureBox.TabStop = false;
             menuButtonPictureBox.Click += menuButtonPictureBox_Click;
             // 
             // contentNameLabel
             // 
-            contentNameLabel.AutoSize = true;
+            resources.ApplyResources(contentNameLabel, "contentNameLabel");
             contentNameLabel.BackColor = Color.Transparent;
-            contentNameLabel.Location = new Point(455, 36);
             contentNameLabel.Name = "contentNameLabel";
-            contentNameLabel.Size = new Size(126, 20);
-            contentNameLabel.TabIndex = 0;
-            contentNameLabel.Text = "ГЛАВНОЕ МЕНЮ";
             contentNameLabel.Click += label1_Click;
             // 
             // contentPanel
             // 
-            contentPanel.Location = new Point(12, 97);
+            resources.ApplyResources(contentPanel, "contentPanel");
             contentPanel.Name = "contentPanel";
-            contentPanel.Size = new Size(1064, 450);
-            contentPanel.TabIndex = 8;
-            //contentPanel.BackColor = Color.Transparent;
             // 
             // MainMenuForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = PokerGameRSF.Properties.Resources.фон_главное_меню_покер;
-            ClientSize = new Size(1182, 628);
             Controls.Add(contentPanel);
             Controls.Add(menuButtonPictureBox);
             Controls.Add(contentNameLabel);
             Name = "MainMenuForm";
-            Text = "MainMenuForm";
             Load += MainMenuForm_Load;
             ((System.ComponentModel.ISupportInitialize)menuButtonPictureBox).EndInit();
             ResumeLayout(false);

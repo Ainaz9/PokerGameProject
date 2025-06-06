@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuControl));
             splitContainer1 = new SplitContainer();
             panel1 = new Panel();
             languageButtonPictureBox = new PictureBox();
@@ -62,10 +63,8 @@
             // splitContainer1
             // 
             splitContainer1.BackColor = Color.White;
-            splitContainer1.Dock = DockStyle.Fill;
-            splitContainer1.Location = new Point(0, 0);
+            resources.ApplyResources(splitContainer1, "splitContainer1");
             splitContainer1.Name = "splitContainer1";
-            splitContainer1.Orientation = Orientation.Horizontal;
             // 
             // splitContainer1.Panel1
             // 
@@ -76,62 +75,43 @@
             // 
             splitContainer1.Panel2.BackColor = Color.White;
             splitContainer1.Panel2.Controls.Add(splitContainer2);
-            splitContainer1.Size = new Size(239, 471);
-            splitContainer1.SplitterDistance = 135;
-            splitContainer1.TabIndex = 0;
             // 
             // panel1
             // 
             panel1.Controls.Add(languageButtonPictureBox);
             panel1.Controls.Add(crossPictureBox);
             panel1.Controls.Add(pictureBox1);
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(0, 0);
+            resources.ApplyResources(panel1, "panel1");
             panel1.Name = "panel1";
-            panel1.Size = new Size(239, 135);
-            panel1.TabIndex = 0;
             // 
             // languageButtonPictureBox
             // 
             languageButtonPictureBox.BackColor = Color.Transparent;
             languageButtonPictureBox.Image = Properties.Resources.russianFlag;
-            languageButtonPictureBox.Location = new Point(-1, -1);
+            resources.ApplyResources(languageButtonPictureBox, "languageButtonPictureBox");
             languageButtonPictureBox.Name = "languageButtonPictureBox";
-            languageButtonPictureBox.Size = new Size(31, 20);
-            languageButtonPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-            languageButtonPictureBox.TabIndex = 2;
             languageButtonPictureBox.TabStop = false;
             // 
             // crossPictureBox
             // 
             crossPictureBox.Image = Properties.Resources.cross;
-            crossPictureBox.Location = new Point(188, -1);
+            resources.ApplyResources(crossPictureBox, "crossPictureBox");
             crossPictureBox.Name = "crossPictureBox";
-            crossPictureBox.Size = new Size(52, 53);
-            crossPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-            crossPictureBox.TabIndex = 1;
             crossPictureBox.TabStop = false;
             crossPictureBox.Click += CrossPictureBox_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.White;
-            pictureBox1.Dock = DockStyle.Fill;
+            resources.ApplyResources(pictureBox1, "pictureBox1");
             pictureBox1.Image = Properties.Resources.покер_лицо;
-            pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(239, 135);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // splitContainer2
             // 
-            splitContainer2.Dock = DockStyle.Fill;
-            splitContainer2.Location = new Point(0, 0);
-            splitContainer2.Margin = new Padding(0);
+            resources.ApplyResources(splitContainer2, "splitContainer2");
             splitContainer2.Name = "splitContainer2";
-            splitContainer2.Orientation = Orientation.Horizontal;
             // 
             // splitContainer2.Panel1
             // 
@@ -140,17 +120,11 @@
             // splitContainer2.Panel2
             // 
             splitContainer2.Panel2.Controls.Add(exitButton);
-            splitContainer2.Size = new Size(239, 332);
-            splitContainer2.SplitterDistance = 283;
-            splitContainer2.TabIndex = 0;
             // 
             // splitContainer3
             // 
-            splitContainer3.Dock = DockStyle.Fill;
-            splitContainer3.Location = new Point(0, 0);
-            splitContainer3.Margin = new Padding(0);
+            resources.ApplyResources(splitContainer3, "splitContainer3");
             splitContainer3.Name = "splitContainer3";
-            splitContainer3.Orientation = Orientation.Horizontal;
             // 
             // splitContainer3.Panel1
             // 
@@ -159,41 +133,23 @@
             // splitContainer3.Panel2
             // 
             splitContainer3.Panel2.BackColor = Color.White;
-            splitContainer3.Size = new Size(239, 283);
-            splitContainer3.SplitterDistance = 221;
-            splitContainer3.TabIndex = 0;
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.AutoSize = true;
+            resources.ApplyResources(flowLayoutPanel1, "flowLayoutPanel1");
             flowLayoutPanel1.BackColor = Color.White;
             flowLayoutPanel1.Controls.Add(mainMenuButton);
             flowLayoutPanel1.Controls.Add(gameRoomButton);
             flowLayoutPanel1.Controls.Add(profileButton);
             flowLayoutPanel1.Controls.Add(rulesButton);
-            flowLayoutPanel1.Dock = DockStyle.Fill;
-            flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
-            flowLayoutPanel1.Location = new Point(0, 0);
-            flowLayoutPanel1.Margin = new Padding(0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(239, 221);
-            flowLayoutPanel1.TabIndex = 0;
-            flowLayoutPanel1.WrapContents = false;
             // 
             // mainMenuButton
             // 
             mainMenuButton.BackColor = Color.White;
-            mainMenuButton.Dock = DockStyle.Fill;
+            resources.ApplyResources(mainMenuButton, "mainMenuButton");
             mainMenuButton.FlatAppearance.MouseOverBackColor = Color.Gray;
-            mainMenuButton.FlatStyle = FlatStyle.Flat;
-            mainMenuButton.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            mainMenuButton.Location = new Point(0, 0);
-            mainMenuButton.Margin = new Padding(0);
-            mainMenuButton.MinimumSize = new Size(240, 0);
             mainMenuButton.Name = "mainMenuButton";
-            mainMenuButton.Size = new Size(240, 50);
-            mainMenuButton.TabIndex = 0;
-            mainMenuButton.Text = "Главное меню";
             mainMenuButton.UseVisualStyleBackColor = false;
             mainMenuButton.Click += mainMenuButton_Click;
             // 
@@ -201,15 +157,8 @@
             // 
             gameRoomButton.BackColor = Color.White;
             gameRoomButton.FlatAppearance.MouseOverBackColor = Color.Gray;
-            gameRoomButton.FlatStyle = FlatStyle.Flat;
-            gameRoomButton.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            gameRoomButton.Location = new Point(0, 50);
-            gameRoomButton.Margin = new Padding(0);
-            gameRoomButton.MinimumSize = new Size(240, 0);
+            resources.ApplyResources(gameRoomButton, "gameRoomButton");
             gameRoomButton.Name = "gameRoomButton";
-            gameRoomButton.Size = new Size(240, 50);
-            gameRoomButton.TabIndex = 1;
-            gameRoomButton.Text = "Игровой стол";
             gameRoomButton.UseVisualStyleBackColor = false;
             gameRoomButton.Click += gameRoomButton_Click;
             // 
@@ -217,15 +166,8 @@
             // 
             profileButton.BackColor = Color.White;
             profileButton.FlatAppearance.MouseOverBackColor = Color.Gray;
-            profileButton.FlatStyle = FlatStyle.Flat;
-            profileButton.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            profileButton.Location = new Point(0, 100);
-            profileButton.Margin = new Padding(0);
-            profileButton.MinimumSize = new Size(240, 0);
+            resources.ApplyResources(profileButton, "profileButton");
             profileButton.Name = "profileButton";
-            profileButton.Size = new Size(240, 50);
-            profileButton.TabIndex = 2;
-            profileButton.Text = "Профиль";
             profileButton.UseVisualStyleBackColor = false;
             profileButton.Click += profileButton_Click;
             // 
@@ -233,41 +175,27 @@
             // 
             rulesButton.BackColor = Color.White;
             rulesButton.FlatAppearance.MouseOverBackColor = Color.Gray;
-            rulesButton.FlatStyle = FlatStyle.Flat;
-            rulesButton.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            rulesButton.Location = new Point(0, 150);
-            rulesButton.Margin = new Padding(0);
-            rulesButton.MinimumSize = new Size(240, 0);
+            resources.ApplyResources(rulesButton, "rulesButton");
             rulesButton.Name = "rulesButton";
-            rulesButton.Size = new Size(240, 50);
-            rulesButton.TabIndex = 3;
-            rulesButton.Text = "Правила игры";
             rulesButton.UseVisualStyleBackColor = false;
             rulesButton.Click += rulesButton_Click;
             // 
             // exitButton
             // 
             exitButton.BackColor = Color.White;
-            exitButton.Dock = DockStyle.Fill;
+            resources.ApplyResources(exitButton, "exitButton");
             exitButton.FlatAppearance.MouseOverBackColor = Color.Gray;
-            exitButton.FlatStyle = FlatStyle.Flat;
-            exitButton.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            exitButton.Location = new Point(0, 0);
             exitButton.Name = "exitButton";
-            exitButton.Size = new Size(239, 45);
-            exitButton.TabIndex = 0;
-            exitButton.Text = "ВЫЙТИ ИЗ АККАУНТА";
             exitButton.UseVisualStyleBackColor = false;
             exitButton.Click += exitButton_Click;
             // 
             // MenuControl
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BorderStyle = BorderStyle.FixedSingle;
             Controls.Add(splitContainer1);
             Name = "MenuControl";
-            Size = new Size(239, 471);
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using PokerGame.Models;
+using PokerGameRSF.Models;
 using PokerGameProject;
 using PokerGameRSF;
 using PokerGameRSF.Models;
@@ -14,6 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PokerGameRSF.DataAccess;
 
 namespace PokerGame
 
@@ -57,15 +58,14 @@ namespace PokerGame
                 _logger.LogError($"Произошла неудачная попытка авторизоваться. Некорректный пароль у пользователя - {login}");
                 return;
             }
-            var authContainer = _serviceProvider.GetRequiredService<AuthContainer>();
-            authContainer.SetAuthenticated("тест");
-            return;
+           
+            
             User user = new User();
 
-            user.Login = login;
-            user.Password = Encoding.UTF8.GetBytes(password);
+            user.Username = login;
+            user.Password = password;
 
-            User? foundedUser = _context.Users.FirstOrDefault(user => user.Login == login);
+            User? foundedUser = _context.Users.FirstOrDefault(user => user.Username == login);
 
             if (foundedUser == null)
             {
@@ -80,12 +80,12 @@ namespace PokerGame
                 _logger.LogError($"Произошла неудачная попытка авторизоваться. Пользователь с логином {login} ввёл неверный пароль");
                 return;
             }
+            var authContainer = _serviceProvider.GetRequiredService<AuthContainer>();
+            authContainer.SetAuthenticated(foundedUser.Id.ToString());
+            _logger.LogInformation($"Успешная попытка авторизоваться. Пользователь '{user.Id} {user.Email} {user.Username}' авторизован");
+            return;
 
-            Form mainForm = _serviceProvider.GetRequiredService<MainMenuForm>();
-            mainForm.Show();
-            this.Close();
-
-            _logger.LogInformation($"Успешная попытка авторизоваться. Пользователь '{user.Id} {user.Email} {user.Login}' авторизован");
+           
         }
 
         private void linkLabelToRegistration_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

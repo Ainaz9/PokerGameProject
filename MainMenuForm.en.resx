@@ -157,7 +157,7 @@
     <value>0</value>
   </data>
   <data name="contentNameLabel.Text" xml:space="preserve">
-    <value>ГЛАВНОЕ МЕНЮ</value>
+    <value>MAIN MENU</value>
   </data>
   <data name="&gt;&gt;contentNameLabel.Name" xml:space="preserve">
     <value>contentNameLabel</value>
@@ -211,6 +211,6 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="stringProfile" xml:space="preserve">
-    <value>Профиль</value>
+    <value>Profile</value>
   </data>
 </root>

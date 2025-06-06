@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace PokerGameRSF.Models
 {
-    public class Bet
+    public class BoardCard
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public Guid GameSessionId { get; set; }
         public virtual GameSession GameSession { get; set; }
-        public Guid UserId { get; set; }
-        public virtual User User { get; set; }
-        public int Amount { get; set; }
-        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
+        public Guid CardId { get; set; }
+        public virtual Card Card { get; set; }
+        public int Position { get; set; } // 1-3: flop, 4: turn, 5: river
     }
 }

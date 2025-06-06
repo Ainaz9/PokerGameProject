@@ -1,47 +1,23 @@
-﻿using PokerGame.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace PokerGameRSF.Models
 {
-    /// <summary>
-    /// Действия игрока
-    /// </summary>
+    public enum ActionType { Fold, Check, Call, Raise }
+
     public class PlayerAction
     {
-        /// <summary>
-        /// Уникальный идентификатор действия 
-        /// </summary>
-        public Guid Id { get; set; }
-
-        /// <summary>
-        /// Уникальный идентификатор игровой сессии
-        /// </summary>
+        public Guid Id { get; set; } = Guid.NewGuid();
         public Guid GameSessionId { get; set; }
-        /// <summary>
-        /// Игровая сессия, в которой было действие 
-        /// </summary>
-        public GameSession GameSession { get; set; }
-
-        /// <summary>
-        /// Уникальный идентификатор игрока совершающий действие 
-        /// </summary>
-        public Guid PlayerId { get; set; }
-        /// <summary>
-        /// Игрок, который выполнил действие 
-        /// </summary>
-        public User Player { get; set; }
-
-        /// <summary>
-        /// Действие игрока
-        /// </summary>
-        public ActionType Action { get; set; }
-
-        /// <summary>
-        /// Необязательное числовое значение, используется только для действий, требующих указания суммы
-        /// </summary>
-        public decimal? Amount { get; set; } // для raise/call
-
-        /// <summary>
-        /// Дата и время выполнения действия 
-        /// </summary>
-        public DateTime PerformedAt { get; set; }
+        public virtual GameSession GameSession { get; set; }
+        public Guid UserId { get; set; }
+        public virtual User User { get; set; }
+        public ActionType ActionType { get; set; }
+        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
+        public Guid? BetId { get; set; }
+        public virtual Bet Bet { get; set; }
     }
 }
