@@ -45,7 +45,7 @@ namespace PokerGameRSF
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Location = new Point(407, 185);
+            label2.Location = new Point(453, 145);
             label2.Name = "label2";
             label2.Size = new Size(266, 20);
             label2.TabIndex = 8;
@@ -55,7 +55,7 @@ namespace PokerGameRSF
             // 
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.Image = Properties.Resources.покер_лицо;
-            pictureBox3.Location = new Point(429, 63);
+            pictureBox3.Location = new Point(474, 33);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(212, 87);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -66,7 +66,7 @@ namespace PokerGameRSF
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
-            label4.Location = new Point(364, 287);
+            label4.Location = new Point(380, 254);
             label4.Name = "label4";
             label4.Size = new Size(431, 20);
             label4.TabIndex = 13;
@@ -76,7 +76,7 @@ namespace PokerGameRSF
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Location = new Point(277, 243);
+            label3.Location = new Point(310, 199);
             label3.Name = "label3";
             label3.Size = new Size(640, 20);
             label3.TabIndex = 12;
@@ -86,7 +86,7 @@ namespace PokerGameRSF
             // 
             startGameButtonPicture.BackColor = Color.Transparent;
             startGameButtonPicture.Image = Properties.Resources.buttonStartGame;
-            startGameButtonPicture.Location = new Point(497, 332);
+            startGameButtonPicture.Location = new Point(504, 315);
             startGameButtonPicture.Name = "startGameButtonPicture";
             startGameButtonPicture.Size = new Size(161, 46);
             startGameButtonPicture.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -98,7 +98,7 @@ namespace PokerGameRSF
             // 
             startgameLabel.AutoSize = true;
             startgameLabel.BackColor = Color.White;
-            startgameLabel.Location = new Point(525, 346);
+            startgameLabel.Location = new Point(538, 330);
             startgameLabel.Name = "startgameLabel";
             startgameLabel.Size = new Size(93, 20);
             startgameLabel.TabIndex = 16;
@@ -116,7 +116,7 @@ namespace PokerGameRSF
             Controls.Add(label4);
             Controls.Add(label3);
             Name = "MainMenuContentControl";
-            Size = new Size(1074, 613);
+            Size = new Size(1130, 613);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)startGameButtonPicture).EndInit();
             ResumeLayout(false);

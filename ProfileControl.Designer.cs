@@ -124,7 +124,7 @@
             // 
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
-            label7.Location = new Point(315, 260);
+            label7.Location = new Point(342, 268);
             label7.Name = "label7";
             label7.Size = new Size(154, 20);
             label7.TabIndex = 7;
@@ -144,7 +144,7 @@
             // 
             label9.AutoSize = true;
             label9.BackColor = Color.Transparent;
-            label9.Location = new Point(668, 195);
+            label9.Location = new Point(668, 212);
             label9.Name = "label9";
             label9.Size = new Size(140, 20);
             label9.TabIndex = 9;
@@ -165,9 +165,9 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = Properties.Resources.game_card;
-            pictureBox2.Location = new Point(26, 327);
+            pictureBox2.Location = new Point(26, 322);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(125, 109);
+            pictureBox2.Size = new Size(125, 151);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 12;
             pictureBox2.TabStop = false;
@@ -176,9 +176,9 @@
             // 
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.Image = Properties.Resources.game_card;
-            pictureBox3.Location = new Point(197, 327);
+            pictureBox3.Location = new Point(197, 322);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(125, 109);
+            pictureBox3.Size = new Size(125, 151);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 13;
             pictureBox3.TabStop = false;
@@ -187,9 +187,9 @@
             // 
             pictureBox4.BackColor = Color.Transparent;
             pictureBox4.Image = Properties.Resources.game_card;
-            pictureBox4.Location = new Point(371, 327);
+            pictureBox4.Location = new Point(371, 322);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(125, 109);
+            pictureBox4.Size = new Size(125, 151);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 14;
             pictureBox4.TabStop = false;
@@ -198,9 +198,9 @@
             // 
             pictureBox5.BackColor = Color.Transparent;
             pictureBox5.Image = Properties.Resources.game_card;
-            pictureBox5.Location = new Point(551, 327);
+            pictureBox5.Location = new Point(549, 322);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(125, 109);
+            pictureBox5.Size = new Size(125, 151);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 15;
             pictureBox5.TabStop = false;
@@ -209,9 +209,9 @@
             // 
             pictureBox6.BackColor = Color.Transparent;
             pictureBox6.Image = Properties.Resources.game_card;
-            pictureBox6.Location = new Point(713, 327);
+            pictureBox6.Location = new Point(722, 322);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(125, 109);
+            pictureBox6.Size = new Size(125, 151);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 16;
             pictureBox6.TabStop = false;
@@ -220,9 +220,9 @@
             // 
             pictureBox7.BackColor = Color.Transparent;
             pictureBox7.Image = Properties.Resources.фишки_покер;
-            pictureBox7.Location = new Point(668, 83);
+            pictureBox7.Location = new Point(668, 65);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(131, 97);
+            pictureBox7.Size = new Size(131, 144);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 17;
             pictureBox7.TabStop = false;
@@ -293,7 +293,7 @@
             Controls.Add(label2);
             Controls.Add(textBox1);
             Name = "ProfileControl";
-            Size = new Size(850, 459);
+            Size = new Size(850, 510);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();

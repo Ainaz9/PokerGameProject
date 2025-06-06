@@ -154,10 +154,10 @@
     <value>0</value>
   </data>
   <data name="crossPictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, -1</value>
+    <value>212, 3</value>
   </data>
   <data name="crossPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 53</value>
+    <value>20, 20</value>
   </data>
   <data name="crossPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -184,7 +184,7 @@
     <value>0, 0</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 134</value>
+    <value>235, 133</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -211,7 +211,7 @@
     <value>0, 0</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 134</value>
+    <value>235, 133</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -428,7 +428,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 220</value>
+    <value>235, 219</value>
   </data>
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -473,10 +473,10 @@
     <value>1</value>
   </data>
   <data name="splitContainer3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 282</value>
+    <value>235, 281</value>
   </data>
   <data name="splitContainer3.SplitterDistance" type="System.Int32, mscorlib">
-    <value>220</value>
+    <value>219</value>
   </data>
   <data name="splitContainer3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -518,7 +518,7 @@
     <value>0, 0</value>
   </data>
   <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 45</value>
+    <value>235, 45</value>
   </data>
   <data name="exitButton.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -551,10 +551,10 @@
     <value>1</value>
   </data>
   <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 331</value>
+    <value>235, 330</value>
   </data>
   <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
-    <value>282</value>
+    <value>281</value>
   </data>
   <data name="splitContainer2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -584,10 +584,10 @@
     <value>1</value>
   </data>
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 469</value>
+    <value>235, 467</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>134</value>
+    <value>133</value>
   </data>
   <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -611,7 +611,7 @@
     <value>8, 20</value>
   </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 469</value>
+    <value>235, 467</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MenuControl</value>

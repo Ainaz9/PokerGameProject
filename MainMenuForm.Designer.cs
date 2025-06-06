@@ -52,7 +52,7 @@
             contentNameLabel.Click += label1_Click;
             // 
             // contentPanel
-            //
+            // 
             resources.ApplyResources(contentPanel, "contentPanel");
             contentPanel.Name = "contentPanel";
             // 

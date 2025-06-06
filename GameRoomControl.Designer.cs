@@ -147,11 +147,11 @@
             // 
             // pictureBox7
             // 
-            pictureBox7.BackColor = Color.FromArgb(0, 120, 0);
+            pictureBox7.BackColor = Color.FromArgb(0, 110, 0);
             pictureBox7.Image = Properties.Resources.circlePoker;
-            pictureBox7.Location = new Point(476, 124);
+            pictureBox7.Location = new Point(476, 135);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(34, 31);
+            pictureBox7.Size = new Size(34, 20);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 7;
             pictureBox7.TabStop = false;
@@ -159,6 +159,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(0, 110, 0);
             label1.Location = new Point(516, 135);
             label1.Name = "label1";
             label1.Size = new Size(32, 20);
@@ -246,8 +247,9 @@
             // 
             // pictureBox14
             // 
+            pictureBox14.BackColor = Color.FromArgb(0, 110, 0);
             pictureBox14.Image = Properties.Resources.circlePoker;
-            pictureBox14.Location = new Point(324, 300);
+            pictureBox14.Location = new Point(324, 310);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(34, 21);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -257,6 +259,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.FromArgb(0, 110, 0);
             label4.Location = new Point(361, 311);
             label4.Name = "label4";
             label4.Size = new Size(24, 20);
@@ -264,19 +267,10 @@
             label4.Text = "2k";
             label4.Click += label4_Click;
             // 
-            // pictureBox15
-            // 
-            pictureBox15.Image = Properties.Resources.circlePoker;
-            pictureBox15.Location = new Point(608, 300);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(34, 31);
-            pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox15.TabIndex = 19;
-            pictureBox15.TabStop = false;
-            // 
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Green;
             label5.Location = new Point(646, 311);
             label5.Name = "label5";
             label5.Size = new Size(24, 20);
@@ -305,7 +299,7 @@
             // pictureBox17
             // 
             pictureBox17.Image = Properties.Resources.circlePoker;
-            pictureBox17.Location = new Point(594, 461);
+            pictureBox17.Location = new Point(594, 450);
             pictureBox17.Name = "pictureBox17";
             pictureBox17.Size = new Size(34, 31);
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -315,7 +309,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(634, 472);
+            label7.Location = new Point(634, 461);
             label7.Name = "label7";
             label7.Size = new Size(53, 20);
             label7.TabIndex = 24;
@@ -324,7 +318,7 @@
             // pictureBox18
             // 
             pictureBox18.Image = Properties.Resources.playCards;
-            pictureBox18.Location = new Point(23, 505);
+            pictureBox18.Location = new Point(36, 502);
             pictureBox18.Name = "pictureBox18";
             pictureBox18.Size = new Size(43, 29);
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -334,7 +328,7 @@
             // pictureBox19
             // 
             pictureBox19.Image = Properties.Resources.pas;
-            pictureBox19.Location = new Point(265, 508);
+            pictureBox19.Location = new Point(363, 505);
             pictureBox19.Name = "pictureBox19";
             pictureBox19.Size = new Size(79, 26);
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -344,7 +338,7 @@
             // pictureBox20
             // 
             pictureBox20.Image = Properties.Resources.Chek;
-            pictureBox20.Location = new Point(339, 508);
+            pictureBox20.Location = new Point(448, 505);
             pictureBox20.Name = "pictureBox20";
             pictureBox20.Size = new Size(79, 26);
             pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -354,7 +348,7 @@
             // pictureBox21
             // 
             pictureBox21.Image = Properties.Resources.Equal_2k;
-            pictureBox21.Location = new Point(415, 508);
+            pictureBox21.Location = new Point(533, 505);
             pictureBox21.Name = "pictureBox21";
             pictureBox21.Size = new Size(79, 26);
             pictureBox21.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -364,7 +358,7 @@
             // pictureBox22
             // 
             pictureBox22.Image = Properties.Resources.ToUp;
-            pictureBox22.Location = new Point(486, 508);
+            pictureBox22.Location = new Point(618, 505);
             pictureBox22.Name = "pictureBox22";
             pictureBox22.Size = new Size(79, 26);
             pictureBox22.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -374,17 +368,18 @@
             // pictureBox23
             // 
             pictureBox23.Image = Properties.Resources.Combinations;
-            pictureBox23.Location = new Point(-2, 260);
+            pictureBox23.Location = new Point(36, 243);
             pictureBox23.Name = "pictureBox23";
-            pictureBox23.Size = new Size(190, 265);
+            pictureBox23.Size = new Size(210, 265);
             pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox23.TabIndex = 30;
             pictureBox23.TabStop = false;
             // 
             // pictureBox15
             // 
+            pictureBox15.BackColor = Color.ForestGreen;
             pictureBox15.Image = Properties.Resources.circlePoker;
-            pictureBox15.Location = new Point(689, 316);
+            pictureBox15.Location = new Point(606, 311);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(34, 21);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -427,6 +422,7 @@
             Controls.Add(pictureBox1);
             Name = "GameRoomControl";
             Size = new Size(1074, 625);
+            Load += GameRoomControl_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
