@@ -1,11 +1,13 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using PokerGame;
-using PokerGame.Models;
+using PokerGameRSF.Models;
 using PokerGameRSF;
 using PokerGameRSF.Models;
 using PokerGameRSF.Properties;
 using System.Text;
+using PokerGameRSF.DataAccess;
+using PokerGameProject;
 
 namespace PokerGame
 {
@@ -80,7 +82,8 @@ namespace PokerGame
                 _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Почта не содержит обязательный символ @");
                 return;
             }
-            if (email.Count(s => s == '@') == 1)
+            var sCount = email.Count(s => s == '@');
+            if (email.Count(s => s == '@') != 1)
             {
                 MessageBox.Show("В почте должен быть 1 символ @");
                 _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Почта не может содержать более 1 символа @");
@@ -92,7 +95,7 @@ namespace PokerGame
                 _logger.LogError($"Произошла неудачная попытка зарегистрироваться. Почта не может содержать символ @ в начале почты");
                 return;
             }
-            if (email.Count(s => s == '.') == 1)
+            if (email.Count(s => s == '.') != 1)
             {
                 MessageBox.Show("В почте должен быть 1 символ точки.");
                 _logger.LogError($"Произошла неудачная попытка зарегистрироваться. В почте должен быть 1 символ точки.");
@@ -105,7 +108,7 @@ namespace PokerGame
                 return;
 
             }
-            string[] splitted = email.Split("@.");
+            string[] splitted = email.Split("@.".ToCharArray());
             if (splitted.Length != 3)
             {
                 MessageBox.Show("Некорректно введена почта");
@@ -151,9 +154,9 @@ namespace PokerGame
 
             User user = new User();
 
-            user.Login = login;
+            user.Username = login;
             user.Email = email;
-            user.Password = Encoding.UTF8.GetBytes(password);
+            user.Password = password;
 
             User? foundedUser = _context.Users.FirstOrDefault(user => user.Email == email);
 
@@ -165,7 +168,10 @@ namespace PokerGame
             }
 
             _context.Users.Add(user);
-            _logger.LogInformation($"Регистрация прошла успешно. Пользователь '{user.Id} {user.Email} {user.Login}' зарегистрирован");
+            _context.SaveChanges();
+            _logger.LogInformation($"Регистрация прошла успешно. Пользователь '{user.Id} {user.Email} {user.Username}' зарегистрирован");
+            var authContainer = _serviceProvider.GetRequiredService<AuthContainer>();
+            authContainer.SetAuthenticated(user.Id.ToString());
         }
 
         /*private void pictureBoxTogglePassword_Click(object sender, EventArgs e)

@@ -1,11 +1,13 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using PokerGameRSF;
+using PokerGameRSF.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,7 +17,6 @@ namespace PokerGame
     public partial class MainMenuForm : Form
     {
         private readonly IServiceProvider serviceProvider;
-
         public MainMenuForm(IServiceProvider serviceProvider)
         {
             InitializeComponent();
@@ -79,7 +80,7 @@ namespace PokerGame
             contentPanel.Controls.Add(profileControl);
             profileControl.Dock = DockStyle.Fill;
             contentPanel.BackColor = Color.White;
-            contentNameLabel.Text = "Профиль";
+            contentNameLabel.Text = ("Профиль");
 
         }
         private void ShowRightMenu()

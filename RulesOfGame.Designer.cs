@@ -41,7 +41,7 @@ namespace PokerGameRSF
             pictureBox1.Image = Properties.Resources.whiteColor;
             pictureBox1.Location = new Point(19, 20);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(866, 551);
+            pictureBox1.Size = new Size(866, 534);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -52,7 +52,7 @@ namespace PokerGameRSF
             pictureBox2.Image = Properties.Resources.TextOfRules;
             pictureBox2.Location = new Point(41, 43);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(825, 497);
+            pictureBox2.Size = new Size(819, 478);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
@@ -64,7 +64,7 @@ namespace PokerGameRSF
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Name = "RulesOfGame";
-            Size = new Size(905, 632);
+            Size = new Size(905, 559);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);

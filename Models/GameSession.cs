@@ -1,53 +1,30 @@
-﻿namespace PokerGame.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PokerGameRSF.Models
 {
-    /// <summary>
-    /// Игровая сессия описывает игру
-    /// </summary>
+    public enum GamePhase { PreFlop, Flop, Turn, River, Showdown, Completed }
+
     public class GameSession
     {
-        /// <summary>
-        /// Уникальный идентификатор игровой сессии
-        /// </summary>
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Player1Id { get; set; }
+        public virtual User Player1 { get; set; }
+        public Guid Player2Id { get; set; }
+        public virtual User Player2 { get; set; }
+        public Guid? CurrentTurnPlayerId { get; set; }
+        public virtual User CurrentTurnPlayer { get; set; }
+        public GamePhase Phase { get; set; } = GamePhase.PreFlop;
+        public int Pot { get; set; } = 0;
+        public DateTime LastActionTime { get; set; } = DateTime.UtcNow;
+        public bool IsActive { get; set; } = true;
 
-        /// <summary>
-        /// Идентификатор первого игрока
-        /// </summary>
-        public Guid PlayerId1 { get; set; }
-
-        /// <summary>
-        /// Объект первого игрока
-        /// </summary>
-        public User Player1 { get; set; }
-
-        /// <summary>
-        /// Идентификатор второго игрока
-        /// </summary>
-        public Guid PlayerId2 { get; set; }
-
-        /// <summary>
-        /// Объект второго игрока
-        /// </summary>
-        public User Player2 { get; set; }
-
-        /// <summary>
-        /// Дата и время начала игры
-        /// </summary>
-        public DateTime StartedAt { get; set; }
-
-        /// <summary>
-        /// Дата и время окончания игры (если завершена)
-        /// </summary>
-        public DateTime? EndAt { get; set; }
-
-        /// <summary>
-        /// Идентификатор победителя
-        /// </summary>
-        public Guid? WinnerId { get; set; }
-
-        /// <summary>
-        /// Объект победителя (если определён)
-        /// </summary>
-        public User? Winner { get; set; }
+        public virtual ICollection<PlayerCard> PlayerCards { get; set; }
+        public virtual ICollection<BoardCard> BoardCards { get; set; }
+        public virtual ICollection<PlayerAction> PlayerActions { get; set; }
+        public virtual ICollection<Bet> Bets { get; set; }
     }
 }

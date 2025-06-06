@@ -87,9 +87,9 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.pokerTable;
-            pictureBox1.Location = new Point(25, 16);
+            pictureBox1.Location = new Point(36, 21);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1029, 522);
+            pictureBox1.Size = new Size(1016, 513);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -97,7 +97,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.pokerCard1;
-            pictureBox3.Location = new Point(418, 163);
+            pictureBox3.Location = new Point(402, 172);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(73, 95);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -107,7 +107,7 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.pokerCard1;
-            pictureBox4.Location = new Point(506, 163);
+            pictureBox4.Location = new Point(492, 172);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(73, 95);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -117,7 +117,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.pokerCard1;
-            pictureBox2.Location = new Point(330, 163);
+            pictureBox2.Location = new Point(310, 172);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(73, 95);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -127,7 +127,7 @@
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.greenRectangle;
-            pictureBox5.Location = new Point(596, 163);
+            pictureBox5.Location = new Point(594, 172);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(76, 95);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -138,7 +138,7 @@
             // pictureBox6
             // 
             pictureBox6.Image = Properties.Resources.greenRectangle;
-            pictureBox6.Location = new Point(694, 163);
+            pictureBox6.Location = new Point(702, 172);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(76, 95);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -149,7 +149,7 @@
             // 
             pictureBox7.BackColor = Color.FromArgb(0, 120, 0);
             pictureBox7.Image = Properties.Resources.circlePoker;
-            pictureBox7.Location = new Point(457, 120);
+            pictureBox7.Location = new Point(476, 124);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(34, 31);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -159,7 +159,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(497, 131);
+            label1.Location = new Point(516, 135);
             label1.Name = "label1";
             label1.Size = new Size(32, 20);
             label1.TabIndex = 8;
@@ -168,7 +168,7 @@
             // pictureBox8
             // 
             pictureBox8.Image = Properties.Resources.profilePhoto;
-            pictureBox8.Location = new Point(293, 344);
+            pictureBox8.Location = new Point(310, 337);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(83, 87);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -178,7 +178,7 @@
             // pictureBox9
             // 
             pictureBox9.Image = Properties.Resources.pokerCard1;
-            pictureBox9.Location = new Point(401, 360);
+            pictureBox9.Location = new Point(414, 369);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(37, 46);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -188,7 +188,7 @@
             // pictureBox10
             // 
             pictureBox10.Image = Properties.Resources.pokerCard1;
-            pictureBox10.Location = new Point(444, 360);
+            pictureBox10.Location = new Point(457, 369);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(37, 46);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -198,7 +198,7 @@
             // pictureBox11
             // 
             pictureBox11.Image = Properties.Resources.profilePhoto;
-            pictureBox11.Location = new Point(670, 344);
+            pictureBox11.Location = new Point(594, 337);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(83, 87);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -208,7 +208,7 @@
             // pictureBox12
             // 
             pictureBox12.Image = Properties.Resources.pokerCard1;
-            pictureBox12.Location = new Point(788, 360);
+            pictureBox12.Location = new Point(711, 369);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(37, 46);
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -218,7 +218,7 @@
             // pictureBox13
             // 
             pictureBox13.Image = Properties.Resources.pokerCard1;
-            pictureBox13.Location = new Point(831, 360);
+            pictureBox13.Location = new Point(754, 369);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(37, 46);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -228,7 +228,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(312, 434);
+            label2.Location = new Point(324, 427);
             label2.Name = "label2";
             label2.Size = new Size(52, 20);
             label2.TabIndex = 15;
@@ -238,7 +238,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(689, 434);
+            label3.Location = new Point(618, 427);
             label3.Name = "label3";
             label3.Size = new Size(52, 20);
             label3.TabIndex = 16;
@@ -247,7 +247,7 @@
             // pictureBox14
             // 
             pictureBox14.Image = Properties.Resources.circlePoker;
-            pictureBox14.Location = new Point(312, 317);
+            pictureBox14.Location = new Point(324, 300);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(34, 21);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -257,17 +257,27 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(352, 318);
+            label4.Location = new Point(361, 311);
             label4.Name = "label4";
             label4.Size = new Size(24, 20);
             label4.TabIndex = 18;
             label4.Text = "2k";
             label4.Click += label4_Click;
             // 
+            // pictureBox15
+            // 
+            pictureBox15.Image = Properties.Resources.circlePoker;
+            pictureBox15.Location = new Point(608, 300);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(34, 31);
+            pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox15.TabIndex = 19;
+            pictureBox15.TabStop = false;
+            // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(729, 317);
+            label5.Location = new Point(646, 311);
             label5.Name = "label5";
             label5.Size = new Size(24, 20);
             label5.TabIndex = 20;
@@ -276,7 +286,7 @@
             // pictureBox16
             // 
             pictureBox16.Image = Properties.Resources.circlePoker;
-            pictureBox16.Location = new Point(293, 457);
+            pictureBox16.Location = new Point(310, 450);
             pictureBox16.Name = "pictureBox16";
             pictureBox16.Size = new Size(34, 31);
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -286,7 +296,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(333, 468);
+            label6.Location = new Point(350, 461);
             label6.Name = "label6";
             label6.Size = new Size(51, 20);
             label6.TabIndex = 22;
@@ -295,7 +305,7 @@
             // pictureBox17
             // 
             pictureBox17.Image = Properties.Resources.circlePoker;
-            pictureBox17.Location = new Point(677, 457);
+            pictureBox17.Location = new Point(594, 461);
             pictureBox17.Name = "pictureBox17";
             pictureBox17.Size = new Size(34, 31);
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -305,7 +315,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(717, 468);
+            label7.Location = new Point(634, 472);
             label7.Name = "label7";
             label7.Size = new Size(53, 20);
             label7.TabIndex = 24;
@@ -314,7 +324,7 @@
             // pictureBox18
             // 
             pictureBox18.Image = Properties.Resources.playCards;
-            pictureBox18.Location = new Point(25, 459);
+            pictureBox18.Location = new Point(23, 505);
             pictureBox18.Name = "pictureBox18";
             pictureBox18.Size = new Size(43, 29);
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -324,7 +334,7 @@
             // pictureBox19
             // 
             pictureBox19.Image = Properties.Resources.pas;
-            pictureBox19.Location = new Point(352, 491);
+            pictureBox19.Location = new Point(265, 508);
             pictureBox19.Name = "pictureBox19";
             pictureBox19.Size = new Size(79, 26);
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -334,7 +344,7 @@
             // pictureBox20
             // 
             pictureBox20.Image = Properties.Resources.Chek;
-            pictureBox20.Location = new Point(437, 491);
+            pictureBox20.Location = new Point(339, 508);
             pictureBox20.Name = "pictureBox20";
             pictureBox20.Size = new Size(79, 26);
             pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -344,7 +354,7 @@
             // pictureBox21
             // 
             pictureBox21.Image = Properties.Resources.Equal_2k;
-            pictureBox21.Location = new Point(522, 491);
+            pictureBox21.Location = new Point(415, 508);
             pictureBox21.Name = "pictureBox21";
             pictureBox21.Size = new Size(79, 26);
             pictureBox21.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -354,7 +364,7 @@
             // pictureBox22
             // 
             pictureBox22.Image = Properties.Resources.ToUp;
-            pictureBox22.Location = new Point(607, 491);
+            pictureBox22.Location = new Point(486, 508);
             pictureBox22.Name = "pictureBox22";
             pictureBox22.Size = new Size(79, 26);
             pictureBox22.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -364,7 +374,7 @@
             // pictureBox23
             // 
             pictureBox23.Image = Properties.Resources.Combinations;
-            pictureBox23.Location = new Point(25, 201);
+            pictureBox23.Location = new Point(-2, 260);
             pictureBox23.Name = "pictureBox23";
             pictureBox23.Size = new Size(190, 265);
             pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
