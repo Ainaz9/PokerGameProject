@@ -44,7 +44,7 @@ namespace PokerGameRSF
         private void rulesButton_Click(object sender, EventArgs e)
         {
             MenuControlActions.OnRulesClicked();
-        }
+        }xa
 
         private void exitButton_Click(object sender, EventArgs e)
         {

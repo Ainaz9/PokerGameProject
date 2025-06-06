@@ -31,5 +31,10 @@ namespace PokerGameRSF
         {
 
         }
+
+        private void GameRoomControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
