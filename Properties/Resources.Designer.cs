@@ -133,6 +133,16 @@ namespace PokerGameRSF.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap circlePoker1 {
+            get {
+                object obj = ResourceManager.GetObject("circlePoker1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Combinations {
             get {
                 object obj = ResourceManager.GetObject("Combinations", resourceCulture);
@@ -162,6 +172,16 @@ namespace PokerGameRSF.Properties {
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cross2Poker {
+            get {
+                object obj = ResourceManager.GetObject("cross2Poker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Equal_2k {
             get {
@@ -232,6 +252,16 @@ namespace PokerGameRSF.Properties {
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plusForPoker {
+            get {
+                object obj = ResourceManager.GetObject("plusForPoker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap pokerCard {
             get {

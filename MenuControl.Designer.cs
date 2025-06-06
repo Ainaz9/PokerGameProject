@@ -93,7 +93,7 @@
             languageButtonPictureBox.TabStop = false;
             // 
             // crossPictureBox
-            // 
+            //
             crossPictureBox.Image = Properties.Resources.cross2Poker;
             resources.ApplyResources(crossPictureBox, "crossPictureBox");
             crossPictureBox.Name = "crossPictureBox";

@@ -46,7 +46,6 @@
             label3 = new Label();
             pictureBox14 = new PictureBox();
             label4 = new Label();
-            pictureBox15 = new PictureBox();
             label5 = new Label();
             pictureBox16 = new PictureBox();
             label6 = new Label();
@@ -58,6 +57,7 @@
             pictureBox21 = new PictureBox();
             pictureBox22 = new PictureBox();
             pictureBox23 = new PictureBox();
+            pictureBox15 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -72,7 +72,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
@@ -81,6 +80,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -133,6 +133,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 5;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox6
             // 
@@ -248,7 +249,7 @@
             pictureBox14.Image = Properties.Resources.circlePoker;
             pictureBox14.Location = new Point(324, 300);
             pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(34, 31);
+            pictureBox14.Size = new Size(34, 21);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 17;
             pictureBox14.TabStop = false;
@@ -375,15 +376,26 @@
             pictureBox23.Image = Properties.Resources.Combinations;
             pictureBox23.Location = new Point(-2, 260);
             pictureBox23.Name = "pictureBox23";
-            pictureBox23.Size = new Size(158, 248);
+            pictureBox23.Size = new Size(190, 265);
             pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox23.TabIndex = 30;
             pictureBox23.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Image = Properties.Resources.circlePoker;
+            pictureBox15.Location = new Point(689, 316);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(34, 21);
+            pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox15.TabIndex = 31;
+            pictureBox15.TabStop = false;
             // 
             // GameRoomControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(pictureBox15);
             Controls.Add(pictureBox23);
             Controls.Add(pictureBox22);
             Controls.Add(pictureBox21);
@@ -395,7 +407,6 @@
             Controls.Add(label6);
             Controls.Add(pictureBox16);
             Controls.Add(label5);
-            Controls.Add(pictureBox15);
             Controls.Add(label4);
             Controls.Add(pictureBox14);
             Controls.Add(label3);
@@ -430,7 +441,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
@@ -439,6 +449,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -463,7 +474,6 @@
         private Label label3;
         private PictureBox pictureBox14;
         private Label label4;
-        private PictureBox pictureBox15;
         private Label label5;
         private PictureBox pictureBox16;
         private Label label6;
@@ -475,5 +485,6 @@
         private PictureBox pictureBox21;
         private PictureBox pictureBox22;
         private PictureBox pictureBox23;
+        private PictureBox pictureBox15;
     }
 }
