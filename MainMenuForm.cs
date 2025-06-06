@@ -48,7 +48,7 @@ namespace PokerGame
             var mainMenuContentControl = serviceProvider.GetRequiredService<MainMenuContentControl>();
             contentPanel.Controls.Add(mainMenuContentControl);
             mainMenuContentControl.Dock = DockStyle.Fill;
-            contentPanel.BackColor = Color.White;
+            contentPanel.BackColor = Color.Transparent;
             contentNameLabel.Text = "Главное меню";
 
         }
@@ -58,7 +58,7 @@ namespace PokerGame
             var rulesOfGameControl = serviceProvider.GetRequiredService<RulesOfGame>();
             contentPanel.Controls.Add(rulesOfGameControl);
             rulesOfGameControl.Dock = DockStyle.Fill;
-            contentPanel.BackColor = Color.White;
+            contentPanel.BackColor = Color.Transparent;
             contentNameLabel.Text = "Правила игры";
 
         }
