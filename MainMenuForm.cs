@@ -17,7 +17,6 @@ namespace PokerGame
     public partial class MainMenuForm : Form
     {
         private readonly IServiceProvider serviceProvider;
-        private readonly ResourceManager _resourceManager;
         public MainMenuForm(IServiceProvider serviceProvider)
         {
             InitializeComponent();
@@ -30,7 +29,6 @@ namespace PokerGame
                 OnProfileClicked = this.ShowProfileContent,
                 OnRulesClicked = this.ShowRulesOfGameContent
             };
-            _resourceManager = new ResourceManager(typeof(MainMenuForm));
         }
         private MenuControlActions _menuControlActions;
 
@@ -51,7 +49,7 @@ namespace PokerGame
             var mainMenuContentControl = serviceProvider.GetRequiredService<MainMenuContentControl>();
             contentPanel.Controls.Add(mainMenuContentControl);
             mainMenuContentControl.Dock = DockStyle.Fill;
-            contentPanel.BackColor = Color.White;
+            contentPanel.BackColor = Color.Transparent;
             contentNameLabel.Text = "Главное меню";
 
         }
@@ -61,7 +59,7 @@ namespace PokerGame
             var rulesOfGameControl = serviceProvider.GetRequiredService<RulesOfGame>();
             contentPanel.Controls.Add(rulesOfGameControl);
             rulesOfGameControl.Dock = DockStyle.Fill;
-            contentPanel.BackColor = Color.White;
+            contentPanel.BackColor = Color.Transparent;
             contentNameLabel.Text = "Правила игры";
 
         }
@@ -82,7 +80,7 @@ namespace PokerGame
             contentPanel.Controls.Add(profileControl);
             profileControl.Dock = DockStyle.Fill;
             contentPanel.BackColor = Color.White;
-            contentNameLabel.Text = _resourceManager.GetString("stringProfile");
+            contentNameLabel.Text = ("Профиль");
 
         }
         private void ShowRightMenu()

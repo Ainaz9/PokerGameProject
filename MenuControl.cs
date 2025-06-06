@@ -14,11 +14,10 @@ namespace PokerGameRSF
 {
     public partial class MenuControl : UserControl
     {
-        private readonly ResourceManager _resourceManager;
+      
         public MenuControl()
         {
             InitializeComponent();
-            _resourceManager = new ResourceManager(typeof(MainMenuForm));
         }
         public MenuControlActions MenuControlActions { get; set; }
 
