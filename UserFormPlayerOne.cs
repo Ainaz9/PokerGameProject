@@ -36,6 +36,7 @@ namespace PokerGameRSF
             if (_sessionId == Guid.Empty) return;
             using var context = await _contextFactory.CreateDbContextAsync();
             var session = await context.GameSessions.FindAsync(_sessionId);
+            // проверяем чья очередь
             if (session?.CurrentTurnPlayerId != _currentUserId) return;
 
             string input = Interaction.InputBox("Введите сумму Raise:", "Ставка Raise", "", -1, -1);
@@ -229,7 +230,7 @@ namespace PokerGameRSF
                 .Include(g => g.Player2)
                 .Include(g => g.Bets)                                  
                 .FirstOrDefaultAsync(g => g.Id == _sessionId);
-
+            // проверяем чья очередь
             if (session?.CurrentTurnPlayerId != _currentUserId) return;
 
             try

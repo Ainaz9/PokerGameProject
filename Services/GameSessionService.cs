@@ -333,7 +333,7 @@ namespace PokerGameRSF.Services
                 .Where(pc => pc.GameSessionId == session.Id)
                 .Select(pc => pc.CardId)
                 .ToListAsync();
-
+            // Убираем уже исп карты
             deck = deck.Where(c => !usedCardIds.Contains(c.Id))
                        .OrderBy(_ => Guid.NewGuid())
                        .ToList();
